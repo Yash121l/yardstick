@@ -1,0 +1,155 @@
+{
+  "seed": 20260804,
+  "gold": [
+    {
+      "id": "p3-001",
+      "goldSql": "SELECT count(*) AS n FROM warehouse.main.companies",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-002",
+      "goldSql": "SELECT name FROM warehouse.main.companies WHERE country = 'India' ORDER BY name",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-003",
+      "goldSql": "SELECT c.name FROM warehouse.main.companies c JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE m.metric = 'runway_months' AND m.as_of = DATE '2026-06-30' AND m.value < 6",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-004",
+      "goldSql": "SELECT c.name FROM warehouse.main.companies c JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE m.metric = 'runway_months' AND m.as_of = DATE '2026-06-30' AND m.value < 6 AND NOT EXISTS (SELECT 1 FROM warehouse.main.meeting_docs d WHERE d.company_id = c.company_id AND d.met_on >= DATE '2026-06-03')",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-005",
+      "goldSql": "SELECT sum(committed_usd) AS total FROM warehouse.main.funds",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-006",
+      "goldSql": "SELECT f.name, count(DISTINCT i.company_id) AS n FROM warehouse.main.funds f JOIN warehouse.main.investments i ON i.fund_id = f.fund_id GROUP BY f.name",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-007",
+      "goldSql": "SELECT DISTINCT c.name FROM warehouse.main.companies c JOIN warehouse.main.funding_rounds r ON r.company_id = c.company_id WHERE r.stage = 'series-b' AND r.announced_on >= DATE '2023-01-01' AND r.announced_on < DATE '2024-01-01'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-008",
+      "goldSql": "SELECT DISTINCT c.name FROM warehouse.main.companies c JOIN warehouse.main.meeting_docs d ON d.company_id = c.company_id WHERE d.quarter = 'Q1' AND d.doc_type = 'board' AND regexp_matches(lower(d.raw_text), 'runway|cash out')",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-009",
+      "goldSql": "SELECT c.name, m.value AS arr_usd FROM warehouse.main.companies c JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE c.sector = 'fintech' AND m.metric = 'arr_usd' AND m.as_of = DATE '2026-06-30'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-010",
+      "goldSql": "SELECT c.name, m.value AS arr_usd FROM warehouse.main.companies c JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE m.metric = 'arr_usd' AND m.as_of = DATE '2026-06-30' ORDER BY m.value DESC LIMIT 5",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-011",
+      "goldSql": "SELECT s.thesis_fit, count(*) AS n FROM warehouse.main.companies c JOIN warehouse.main.sectors s ON s.sector = c.sector GROUP BY s.thesis_fit",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-012",
+      "goldSql": "SELECT DISTINCT c.name FROM warehouse.main.companies c JOIN warehouse.main.people p ON p.company_id = c.company_id WHERE p.is_founder AND p.departed_on IS NOT NULL",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-013",
+      "goldSql": "SELECT avg(i.ownership_pct) AS avg_pct FROM warehouse.main.investments i JOIN warehouse.main.funds f ON f.fund_id = i.fund_id WHERE f.name = 'Yardstick Fund II'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-014",
+      "goldSql": "SELECT name FROM warehouse.main.companies WHERE status = 'written-off'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-015",
+      "goldSql": "SELECT sum(proceeds_usd) AS total FROM warehouse.main.exits WHERE exited_on >= DATE '2025-01-01' AND exited_on < DATE '2026-01-01'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-016",
+      "goldSql": "SELECT c.name FROM warehouse.main.companies c JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE m.metric = 'nrr_pct' AND m.as_of = DATE '2026-06-30' AND m.value < 90",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-017",
+      "goldSql": "SELECT count(*) AS n FROM warehouse.main.funding_rounds WHERE lead_investor = 'Thornfield Partners'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-018",
+      "goldSql": "SELECT c.name FROM warehouse.main.companies c JOIN warehouse.main.sectors s ON s.sector = c.sector JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE s.thesis_fit = 'core' AND m.metric = 'headcount' AND m.as_of = DATE '2026-06-30' AND m.value > 50",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-019",
+      "goldSql": "SELECT c.name, v.post_money_usd FROM warehouse.main.companies c JOIN warehouse.main.valuations v ON v.company_id = c.company_id WHERE c.status = 'exited'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-020",
+      "goldSql": "SELECT doc_type, count(*) AS n FROM warehouse.main.meeting_docs GROUP BY doc_type",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-021",
+      "goldSql": "SELECT name FROM warehouse.main.companies WHERE is_reported = false",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-022",
+      "goldSql": "SELECT DISTINCT c.name FROM warehouse.main.companies c JOIN warehouse.main.funding_rounds r ON r.company_id = c.company_id WHERE r.amount_usd > 25000000",
+      "expectEmpty": true
+    },
+    {
+      "id": "p3-023",
+      "goldSql": "SELECT name FROM warehouse.main.companies WHERE founded_year < 2010",
+      "expectEmpty": true
+    },
+    {
+      "id": "p3-024",
+      "goldSql": "SELECT c.name FROM warehouse.main.companies c JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE m.metric = 'runway_months' AND m.as_of = DATE '2026-06-30' AND m.value > 60",
+      "expectEmpty": true
+    },
+    {
+      "id": "p3-025",
+      "goldSql": "SELECT c.name FROM warehouse.main.companies c JOIN warehouse.main.exits e ON e.company_id = c.company_id WHERE e.exit_type = 'shutdown'",
+      "expectEmpty": true
+    },
+    {
+      "id": "p3-026",
+      "goldSql": "SELECT name FROM warehouse.main.funds WHERE vintage_year < 2015",
+      "expectEmpty": true
+    },
+    {
+      "id": "p3-027",
+      "goldSql": "SELECT name FROM warehouse.main.companies WHERE sector = 'biotech' AND status = 'active'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-028",
+      "goldSql": "SELECT median(m.value) AS median_arr FROM warehouse.main.metrics_normalized m WHERE m.metric = 'arr_usd' AND m.as_of = DATE '2026-06-30'",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-029",
+      "goldSql": "SELECT c.name, count(*) AS n FROM warehouse.main.companies c JOIN warehouse.main.funding_rounds r ON r.company_id = c.company_id GROUP BY c.name HAVING count(*) >= 3",
+      "expectEmpty": false
+    },
+    {
+      "id": "p3-030",
+      "goldSql": "SELECT DISTINCT c.name FROM warehouse.main.companies c JOIN warehouse.main.meeting_docs d ON d.company_id = c.company_id JOIN warehouse.main.metrics_normalized m ON m.company_id = c.company_id WHERE d.quarter = 'Q1' AND m.metric = 'burn_usd_month' AND m.as_of = DATE '2026-06-30' AND m.value > 80000",
+      "expectEmpty": false
+    }
+  ]
+}

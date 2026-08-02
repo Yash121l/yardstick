@@ -1,0 +1,40 @@
+{
+  "name": "yardstick",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "eval": "tsx src/cli.ts",
+    "gen": "tsx src/generators/cli.ts",
+    "prices:sync": "tsx src/scripts/sync-prices.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check src",
+    "lint:fix": "biome check --write src",
+    "test": "vitest run",
+    "a1:validate": "tsx src/scripts/validate-a1.ts",
+    "report": "tsx src/scripts/render-report.ts"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.5-r.3",
+    "better-sqlite3": "^11.10.0",
+    "commander": "^13.1.0",
+    "yaml": "^2.7.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "jsdom": "^30.0.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}

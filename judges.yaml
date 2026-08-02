@@ -1,0 +1,39 @@
+# Pinned judge configuration for P4 and P5.
+#
+# Rules the runner enforces, not conventions:
+#   - A judge is NEVER a candidate in the same run. The run aborts at t=0 if one is.
+#   - A judge from the SAME provider family as the model under test is a
+#     collision. Those items are recorded `ungraded` with reason
+#     `judge-family-collision` unless --allow-judge-collision is passed, and the
+#     override is written into the run manifest.
+#   - Judges are never auto-upgraded. rubricVersion and a prompt hash land in
+#     every manifest so an old run stays interpretable.
+#   - Every deduction must quote the submission. An unevidenced deduction is
+#     discarded and that criterion is marked ungraded rather than guessed.
+#
+# NOTE ON THE CURRENT PINS: both are Anthropic, because that is the only key
+# configured. Both baselines are also Anthropic, so every judged item collides
+# and needs --allow-judge-collision. A same-family judge is a real methodological
+# weakness — it shares training lineage and failure modes with the thing it is
+# grading. Adding an OpenAI or Google key and repinning `primary` to that family
+# is the single highest-value fix available to this suite.
+
+primary:
+  id: claude-sonnet-4-6
+  provider: anthropic
+  family: anthropic
+  priceIn: 3.00
+  priceOut: 15.00
+  profile: { thinking: disabled, effort: low }
+
+# --dual-judge averages the two and flags any item where they disagree by more
+# than 2 rubric points, rather than silently averaging the disagreement away.
+secondary:
+  id: claude-opus-4-8
+  provider: anthropic
+  family: anthropic
+  priceIn: 5.00
+  priceOut: 25.00
+  profile: { thinking: disabled, effort: low }
+
+rubricVersion: "1"

@@ -1,0 +1,1145 @@
+{
+  "seed": 20260802,
+  "gold": [
+    {
+      "id": "p2-a-001",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "pre-seed",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-002",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "seed",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-003",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-a",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-004",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-b",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-005",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-c",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-006",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "pre-seed",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-007",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "seed",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-008",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-a",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-009",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-010",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-011",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-012",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-013",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-014",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-015",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-016",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-017",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-018",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": false,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-019",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "pre-seed",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-020",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "seed",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-021",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-a",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-022",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-b",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-023",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-c",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-024",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "pre-seed",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-025",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "seed",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-026",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-a",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-027",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "seed",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-028",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-a",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-029",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-b",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-030",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-c",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-031",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "pre-seed",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-032",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-033",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-034",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-035",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-036",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-037",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-038",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": null,
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-039",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-c",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-040",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-b",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-041",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "pre-seed",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-042",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-c",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-043",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-a",
+        "is_india": false
+      }
+    },
+    {
+      "id": "p2-a-044",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-b",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-a-045",
+      "labelSet": "funding",
+      "labels": {
+        "is_funding_event": true,
+        "round_stage": "series-b",
+        "is_india": true
+      }
+    },
+    {
+      "id": "p2-b-001",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-002",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-003",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-004",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-005",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-006",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-007",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-008",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-009",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-010",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-011",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-012",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-013",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-014",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-015",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-016",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-017",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-018",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-019",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-020",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-021",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-022",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-023",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-024",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-025",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-026",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-027",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-028",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-029",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-030",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-031",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-032",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-033",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-034",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-035",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-036",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-b-037",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "founder-catchup"
+      }
+    },
+    {
+      "id": "p2-b-038",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "external-other"
+      }
+    },
+    {
+      "id": "p2-b-039",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "internal"
+      }
+    },
+    {
+      "id": "p2-b-040",
+      "labelSet": "meeting",
+      "labels": {
+        "meeting_type": "board-call"
+      }
+    },
+    {
+      "id": "p2-c-001",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-002",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-003",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-004",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-005",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-006",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-007",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-008",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-009",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-010",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-011",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-012",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-013",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-014",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-015",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-016",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-017",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-018",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-019",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-020",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-021",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "signal"
+      }
+    },
+    {
+      "id": "p2-c-022",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-023",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-024",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-025",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-026",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-027",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-028",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-029",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-030",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-031",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-032",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-033",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-034",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-c-035",
+      "labelSet": "signal",
+      "labels": {
+        "classification": "noise"
+      }
+    },
+    {
+      "id": "p2-d-001",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-002",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-003",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-004",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-005",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-006",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-007",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-008",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-009",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-010",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-011",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-012",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-013",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-014",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-015",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-016",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-017",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-018",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-019",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-020",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-021",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-022",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-023",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-024",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-025",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-026",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-027",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "adjacent"
+      }
+    },
+    {
+      "id": "p2-d-028",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    },
+    {
+      "id": "p2-d-029",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "anti-thesis"
+      }
+    },
+    {
+      "id": "p2-d-030",
+      "labelSet": "thesis",
+      "labels": {
+        "fit": "in-thesis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+slug: refactor-safe
+title: Refactor a pricing engine with behaviour pinned by a characterization hash
+timeoutMs: 900000
+allowGitCommit: false
+requires: [node]
+checks:
+  - kind: behaviour-unchanged
+    label: characterization-identical
+    command: ["npm", "run", "--silent", "characterize"]
+    expectedStdoutSha256: b9a412528d357cf6d9bc9567b3493eaeb5f1ef0496b665208675616fe1361144
+    weight: 2
+  - kind: vitest
+    label: hidden-tests
+    weight: 1

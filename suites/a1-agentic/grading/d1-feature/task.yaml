@@ -1,0 +1,9 @@
+slug: d1-feature
+title: Implement soft delete behind an append-only migration (node:sqlite)
+timeoutMs: 900000
+allowGitCommit: false
+requires: [node]
+checks:
+  - kind: vitest
+    label: hidden-tests
+    weight: 1

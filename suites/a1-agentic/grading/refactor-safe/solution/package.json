@@ -1,0 +1,8 @@
+{
+  "name": "pricing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "characterize": "node --experimental-strip-types characterize.ts"
+  }
+}

@@ -1,0 +1,45 @@
+# A1 agent invocation.
+#
+# A1 does not call a provider API. It shells out to an agent CLI, pointed at a
+# scratch copy of a small repo, and grades what the repo looks like afterwards.
+# The invocation is a template so any agent CLI can be swapped in.
+#
+# Placeholders:
+#   {model}       the model id from models.yaml
+#   {dir}         the sandbox directory (also the working directory)
+#   {promptFile}  absolute path to PROMPT.md inside the sandbox
+#   {prompt}      the full text of PROMPT.md, as ONE argv entry
+#
+# The template is split on whitespace BEFORE substitution, so a value containing
+# spaces stays a single argument. Nothing is passed through a shell, so shell
+# metacharacters in a prompt cannot become commands.
+#
+# ⚠ Read this before enabling A1.
+#
+# The agent runs as YOU, with your filesystem permissions and your API key. This
+# harness detects escapes (transcript scan + canary files next to the sandbox);
+# it does NOT contain them. `escapedSandbox` means "we caught it", not "it could
+# not happen". Point A1 only at agent CLIs you already trust.
+#
+# A1 is opt-in: `--suite all` never includes it. Ask for it by name.
+
+invocation: >-
+  claude -p {prompt}
+  --model {model}
+  --permission-mode acceptEdits
+  --output-format json
+
+# Wall-clock budget per task. The task's own timeoutMs wins if it is lower.
+timeoutMs: 900000
+
+# How to read cost and token usage out of the agent's own output.
+#   claude-json  parse stdout as JSON; read total_cost_usd and usage.*
+#   none         the CLI reports nothing, so cost is recorded as UNKNOWN
+#
+# Unknown is not zero. A zero here would tell the verdict engine an agent run
+# was free and let it clear a cost gate it never actually passed.
+usage: claude-json
+
+# Extra environment for the agent process, merged over the harness environment.
+# Leave empty unless an agent CLI needs something specific.
+env: {}

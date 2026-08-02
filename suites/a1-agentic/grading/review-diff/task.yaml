@@ -1,0 +1,82 @@
+slug: review-diff
+title: Review a diff carrying 10 planted defects (2 security, 4 logic, 2 concurrency, 2 perf)
+timeoutMs: 900000
+allowGitCommit: false
+requires: [node]
+expectArtifacts: [findings.json]
+checks:
+  - kind: findings
+    label: defect-recall-precision
+    path: findings.json
+    weight: 1
+
+# Scored as F1, so a report that flags every line to guarantee recall is
+# penalised exactly as much as one that misses everything.
+defects:
+  # --- security ---
+  - id: sec-sqli
+    file: src/booking.ts
+    line: 10
+    severity: critical
+    category: security
+    tokens: ["sql injection", "sqli", "string concatenation", "concatenat", "parameteris", "parameteriz", "interpolat"]
+  - id: sec-md5-token
+    file: src/booking.ts
+    line: 6
+    severity: critical
+    category: security
+    tokens: ["md5", "predictable", "not random", "guessable", "insecure hash", "timestamp", "csprng", "randomBytes"]
+
+  # --- logic ---
+  - id: log-hours-units
+    file: src/booking.ts
+    line: 15
+    severity: high
+    category: logic
+    tokens: ["3600", "millisecond", "unit", "seconds", "3600000", "wrong divisor"]
+  - id: log-expired-session
+    file: src/booking.ts
+    line: 63
+    severity: critical
+    category: logic
+    tokens: ["expired", "expires", "returns the user anyway", "both branches", "same value", "no effect"]
+  - id: log-page-offset
+    file: src/booking.ts
+    line: 25
+    severity: medium
+    category: logic
+    tokens: ["off-by-one", "offset", "page - 1", "1-based", "zero-based", "first page"]
+  - id: log-negative-credit
+    file: src/booking.ts
+    line: 77
+    severity: high
+    category: logic
+    tokens: ["negative", "overdraw", "insufficient", "below zero", "no check", "clamp"]
+
+  # --- concurrency ---
+  - id: con-reserve-race
+    file: src/booking.ts
+    line: 28
+    severity: critical
+    category: concurrency
+    tokens: ["race", "check-then-act", "read-modify-write", "atomic", "transaction", "lost update", "oversell", "overbook"]
+  - id: con-module-counter
+    file: src/booking.ts
+    line: 35
+    severity: high
+    category: concurrency
+    tokens: ["counter", "module-level", "module state", "not unique", "collide", "per-process", "in-memory", "restart"]
+
+  # --- perf ---
+  - id: perf-n-plus-one
+    file: src/booking.ts
+    line: 41
+    severity: high
+    category: perf
+    tokens: ["n+1", "n + 1", "per event", "loop", "one query per", "batch", "in clause", "single query"]
+  - id: perf-quadratic
+    file: src/booking.ts
+    line: 50
+    severity: medium
+    category: perf
+    tokens: ["quadratic", "o(n^2)", "o(n2)", "nested", "filter inside", "recount", "inefficient"]

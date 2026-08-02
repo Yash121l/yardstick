@@ -1,0 +1,216 @@
+{
+  "seed": 20260804,
+  "schemaCard": "You are querying a DuckDB database. Always write fully-qualified table names in\nthe form warehouse.main.<table>. Queries that use bare table names will fail.\n\nwarehouse.main.funds(fund_id, name, vintage_year, committed_usd)\nwarehouse.main.companies(company_id, name, country, city, sector, founded_year, status, is_reported)\n    status is one of 'active', 'exited', 'written-off'\nwarehouse.main.investments(investment_id, company_id, fund_id, first_invested_on, ownership_pct)\nwarehouse.main.funding_rounds(round_id, company_id, stage, announced_on, amount_usd, lead_investor)\n    stage is one of 'pre-seed', 'seed', 'series-a', 'series-b', 'series-c'\nwarehouse.main.metrics_normalized(metric_id, company_id, as_of, metric, value)\n    metric is one of 'arr_usd', 'burn_usd_month', 'runway_months', 'headcount', 'nrr_pct'\nwarehouse.main.valuations(valuation_id, company_id, as_of, post_money_usd, source)\nwarehouse.main.people(person_id, company_id, full_name, role, is_founder, departed_on)\n    departed_on is NULL for people who are still there\nwarehouse.main.meeting_docs(doc_id, company_id, met_on, doc_type, quarter, raw_text)\n    doc_type is one of 'board', 'catchup', 'diligence'; quarter looks like 'Q1'\nwarehouse.main.sectors(sector, thesis_fit)\n    thesis_fit is one of 'core', 'adjacent', 'out'\nwarehouse.main.exits(exit_id, company_id, exited_on, proceeds_usd, exit_type)\n\nNotes on this DuckDB instance:\n- Today's date for the purposes of any question is 2026-08-02.\n- For case-insensitive substring or pattern matching on text, use\n  regexp_matches(lower(column), 'pattern'). Note that SIMILAR TO in DuckDB must\n  match the WHOLE string and does not treat '.' as a wildcard.",
+  "questions": [
+    {
+      "id": "p3-001",
+      "question": "How many companies are in the portfolio?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "trivial count"
+    },
+    {
+      "id": "p3-002",
+      "question": "List the names of all companies headquartered in India, ordered alphabetically.",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "ordering is demanded, so the grader enforces it"
+    },
+    {
+      "id": "p3-003",
+      "question": "Which companies have fewer than 6 months of runway as of the latest reading?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "latest-reading filter plus threshold"
+    },
+    {
+      "id": "p3-004",
+      "question": "Which companies have fewer than 6 months of runway at the latest reading AND have had no meeting of any kind in the last 60 days?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "the flagship question: threshold plus a NOT EXISTS recency check"
+    },
+    {
+      "id": "p3-005",
+      "question": "What is the total committed capital across all funds, in USD?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "aggregate"
+    },
+    {
+      "id": "p3-006",
+      "question": "For each fund, how many companies has it invested in?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "group-by with a distinct count"
+    },
+    {
+      "id": "p3-007",
+      "question": "Which companies raised a series-b round during 2023?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "date-range filter"
+    },
+    {
+      "id": "p3-008",
+      "question": "Which companies have a board-meeting document from Q1 whose text matches the pattern 'runway|cash out', case-insensitively?",
+      "expectEmpty": false,
+      "trap": "dialect-trap",
+      "note": "SIMILAR TO '.*(runway|cash out).*' silently returns zero rows in DuckDB"
+    },
+    {
+      "id": "p3-009",
+      "question": "What is the latest ARR for each company in the fintech sector?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "sector filter plus latest metric"
+    },
+    {
+      "id": "p3-010",
+      "question": "Which five companies have the highest latest ARR? Return name and ARR, highest first.",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "top-N with explicit ordering"
+    },
+    {
+      "id": "p3-011",
+      "question": "How many companies are in each thesis-fit category?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "join to the sector lookup"
+    },
+    {
+      "id": "p3-012",
+      "question": "Which companies have had a founder depart?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "NULL semantics on departed_on"
+    },
+    {
+      "id": "p3-013",
+      "question": "What is the average ownership percentage held by Yardstick Fund II?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "average with a join filter"
+    },
+    {
+      "id": "p3-014",
+      "question": "Which companies are marked as written-off?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "status filter"
+    },
+    {
+      "id": "p3-015",
+      "question": "What were the total exit proceeds in 2025?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "aggregate over a date range"
+    },
+    {
+      "id": "p3-016",
+      "question": "Which companies have a latest net revenue retention below 90%?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "threshold on a percentage metric"
+    },
+    {
+      "id": "p3-017",
+      "question": "How many funding rounds were led by Thornfield Partners?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "exact string filter"
+    },
+    {
+      "id": "p3-018",
+      "question": "Which companies in a 'core' thesis-fit sector have more than 50 headcount at the latest reading?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "three-table join"
+    },
+    {
+      "id": "p3-019",
+      "question": "What is the latest post-money valuation for each exited company?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "join plus status filter"
+    },
+    {
+      "id": "p3-020",
+      "question": "How many meeting documents of each type are there?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "simple group-by"
+    },
+    {
+      "id": "p3-021",
+      "question": "Which companies are not reported in the portfolio pack?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "boolean filter"
+    },
+    {
+      "id": "p3-022",
+      "question": "Which companies raised more than $25 million in a single round?",
+      "expectEmpty": true,
+      "trap": "absent",
+      "note": "the largest round in the warehouse is about $21m — correct answer is no rows"
+    },
+    {
+      "id": "p3-023",
+      "question": "Which companies were founded before 2010?",
+      "expectEmpty": true,
+      "trap": "absent",
+      "note": "the earliest founding year is 2014 — correct answer is no rows"
+    },
+    {
+      "id": "p3-024",
+      "question": "Which companies have a latest runway of more than 60 months?",
+      "expectEmpty": true,
+      "trap": "absent",
+      "note": "runway tops out around 30 months — correct answer is no rows"
+    },
+    {
+      "id": "p3-025",
+      "question": "Which companies exited via a shutdown?",
+      "expectEmpty": true,
+      "trap": "absent",
+      "note": "no shutdown exits exist — correct answer is no rows"
+    },
+    {
+      "id": "p3-026",
+      "question": "Which funds have a vintage year before 2015?",
+      "expectEmpty": true,
+      "trap": "absent",
+      "note": "earliest vintage is 2018 — correct answer is no rows"
+    },
+    {
+      "id": "p3-027",
+      "question": "Which companies in the 'biotech' sector are active?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "sector plus status"
+    },
+    {
+      "id": "p3-028",
+      "question": "What is the median latest ARR across all companies?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "DuckDB median()"
+    },
+    {
+      "id": "p3-029",
+      "question": "For each company, how many funding rounds has it raised? Return only companies with at least three rounds.",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "GROUP BY with HAVING"
+    },
+    {
+      "id": "p3-030",
+      "question": "Which companies had a meeting in Q1 and also have a latest burn above $80,000 a month?",
+      "expectEmpty": false,
+      "trap": "none",
+      "note": "two joins plus a threshold"
+    }
+  ]
+}

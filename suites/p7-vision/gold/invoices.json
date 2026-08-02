@@ -1,0 +1,458 @@
+[
+  {
+    "id": "p7-001",
+    "vendor": "PORTHOLE LOGISTICS PVT LTD",
+    "invoiceNumber": "INV-2026-1000",
+    "date": "2026-02-21",
+    "currency": "INR",
+    "subtotalMinor": 2240709,
+    "taxMinor": 403328,
+    "totalMinor": 2644037,
+    "taxId": "33EJRLJ7206J1ZE",
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "EDGE PROTECTOR 1M",
+        "qty": 31,
+        "unitMinor": 13544,
+        "amountMinor": 419864
+      },
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 3,
+        "unitMinor": 10405,
+        "amountMinor": 31215
+      },
+      {
+        "description": "PALLET WRAP 500MM",
+        "qty": 31,
+        "unitMinor": 57730,
+        "amountMinor": 1789630
+      }
+    ],
+    "layout": "classic"
+  },
+  {
+    "id": "p7-002",
+    "vendor": "GLASSWING SUPPLY CO",
+    "invoiceNumber": "INV-2026-1037",
+    "date": "2026-02-11",
+    "currency": "USD",
+    "subtotalMinor": 503608,
+    "taxMinor": 41548,
+    "totalMinor": 545156,
+    "taxId": null,
+    "poNumber": "PO-51376",
+    "lineItems": [
+      {
+        "description": "PALLET WRAP 500MM",
+        "qty": 17,
+        "unitMinor": 1293,
+        "amountMinor": 21981
+      },
+      {
+        "description": "CARTON 610X410X300",
+        "qty": 32,
+        "unitMinor": 7377,
+        "amountMinor": 236064
+      },
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 11,
+        "unitMinor": 9458,
+        "amountMinor": 104038
+      },
+      {
+        "description": "THERMAL LABELS 4X6",
+        "qty": 15,
+        "unitMinor": 9435,
+        "amountMinor": 141525
+      }
+    ],
+    "layout": "receipt"
+  },
+  {
+    "id": "p7-003",
+    "vendor": "MISTFALL PAPER WORKS",
+    "invoiceNumber": "INV-2026-1074",
+    "date": "2026-05-22",
+    "currency": "INR",
+    "subtotalMinor": 9701636,
+    "taxMinor": null,
+    "totalMinor": 9701636,
+    "taxId": "31YSHTR3960N7ZJ",
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 31,
+        "unitMinor": 193957,
+        "amountMinor": 6012667
+      },
+      {
+        "description": "CRATE LINER LARGE",
+        "qty": 33,
+        "unitMinor": 110454,
+        "amountMinor": 3644982
+      },
+      {
+        "description": "DESICCANT SACHET 50G",
+        "qty": 1,
+        "unitMinor": 43987,
+        "amountMinor": 43987
+      }
+    ],
+    "layout": "minimal"
+  },
+  {
+    "id": "p7-004",
+    "vendor": "NORTHWICK FABRICATION INC",
+    "invoiceNumber": "INV-2026-1111",
+    "date": "2026-05-16",
+    "currency": "USD",
+    "subtotalMinor": 513497,
+    "taxMinor": 42364,
+    "totalMinor": 555861,
+    "taxId": null,
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 4,
+        "unitMinor": 8936,
+        "amountMinor": 35744
+      },
+      {
+        "description": "CARTON 610X410X300",
+        "qty": 40,
+        "unitMinor": 7072,
+        "amountMinor": 282880
+      },
+      {
+        "description": "EDGE PROTECTOR 1M",
+        "qty": 25,
+        "unitMinor": 2313,
+        "amountMinor": 57825
+      },
+      {
+        "description": "PALLET WRAP 500MM",
+        "qty": 13,
+        "unitMinor": 6077,
+        "amountMinor": 79001
+      },
+      {
+        "description": "STRAPPING SEAL 19MM",
+        "qty": 11,
+        "unitMinor": 5277,
+        "amountMinor": 58047
+      }
+    ],
+    "layout": "classic"
+  },
+  {
+    "id": "p7-005",
+    "vendor": "ORRERY INSTRUMENTS LLP",
+    "invoiceNumber": "INV-2026-1148",
+    "date": "2026-04-14",
+    "currency": "INR",
+    "subtotalMinor": 15258380,
+    "taxMinor": 2746508,
+    "totalMinor": 18004888,
+    "taxId": "28MATEB7930Q8ZD",
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "SENSOR MOUNT BRACKET",
+        "qty": 23,
+        "unitMinor": 240439,
+        "amountMinor": 5530097
+      },
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 35,
+        "unitMinor": 209497,
+        "amountMinor": 7332395
+      },
+      {
+        "description": "THERMAL LABELS 4X6",
+        "qty": 22,
+        "unitMinor": 94073,
+        "amountMinor": 2069606
+      },
+      {
+        "description": "STEEL BANDING 19MM",
+        "qty": 22,
+        "unitMinor": 14831,
+        "amountMinor": 326282
+      }
+    ],
+    "layout": "receipt"
+  },
+  {
+    "id": "p7-006",
+    "vendor": "SALTMARSH TOOLING LLC",
+    "invoiceNumber": "INV-2026-1185",
+    "date": "2026-08-21",
+    "currency": "USD",
+    "subtotalMinor": 399726,
+    "taxMinor": null,
+    "totalMinor": 399726,
+    "taxId": null,
+    "poNumber": "PO-64202",
+    "lineItems": [
+      {
+        "description": "STRAPPING SEAL 19MM",
+        "qty": 11,
+        "unitMinor": 5490,
+        "amountMinor": 60390
+      },
+      {
+        "description": "CARTON 610X410X300",
+        "qty": 36,
+        "unitMinor": 9426,
+        "amountMinor": 339336
+      }
+    ],
+    "layout": "minimal"
+  },
+  {
+    "id": "p7-007",
+    "vendor": "PELLUCID COLD CHAIN PVT LTD",
+    "invoiceNumber": "INV-2026-1222",
+    "date": "2026-01-18",
+    "currency": "INR",
+    "subtotalMinor": 11925785,
+    "taxMinor": 2146641,
+    "totalMinor": 14072426,
+    "taxId": "25BJPYU3793X1ZJ",
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "CARTON 610X410X300",
+        "qty": 31,
+        "unitMinor": 225354,
+        "amountMinor": 6985974
+      },
+      {
+        "description": "DESICCANT SACHET 50G",
+        "qty": 3,
+        "unitMinor": 172446,
+        "amountMinor": 517338
+      },
+      {
+        "description": "STRAPPING SEAL 19MM",
+        "qty": 20,
+        "unitMinor": 90941,
+        "amountMinor": 1818820
+      },
+      {
+        "description": "COLD PACK GEL 2KG",
+        "qty": 37,
+        "unitMinor": 70369,
+        "amountMinor": 2603653
+      }
+    ],
+    "layout": "classic"
+  },
+  {
+    "id": "p7-008",
+    "vendor": "DRIFTPIN HARDWARE CO",
+    "invoiceNumber": "INV-2026-1259",
+    "date": "2026-06-10",
+    "currency": "USD",
+    "subtotalMinor": 561583,
+    "taxMinor": 46331,
+    "totalMinor": 607914,
+    "taxId": null,
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 21,
+        "unitMinor": 3134,
+        "amountMinor": 65814
+      },
+      {
+        "description": "STRAPPING SEAL 19MM",
+        "qty": 35,
+        "unitMinor": 6457,
+        "amountMinor": 225995
+      },
+      {
+        "description": "THERMAL LABELS 4X6",
+        "qty": 24,
+        "unitMinor": 4581,
+        "amountMinor": 109944
+      },
+      {
+        "description": "COLD PACK GEL 2KG",
+        "qty": 22,
+        "unitMinor": 7265,
+        "amountMinor": 159830
+      }
+    ],
+    "layout": "receipt"
+  },
+  {
+    "id": "p7-009",
+    "vendor": "KESTREL BINDERY",
+    "invoiceNumber": "INV-2026-1296",
+    "date": "2026-03-28",
+    "currency": "INR",
+    "subtotalMinor": 15323886,
+    "taxMinor": null,
+    "totalMinor": 15323886,
+    "taxId": "29PSRNT4960U2ZX",
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "LOGGER BATTERY CR2",
+        "qty": 10,
+        "unitMinor": 229947,
+        "amountMinor": 2299470
+      },
+      {
+        "description": "EDGE PROTECTOR 1M",
+        "qty": 13,
+        "unitMinor": 90523,
+        "amountMinor": 1176799
+      },
+      {
+        "description": "PALLET WRAP 500MM",
+        "qty": 15,
+        "unitMinor": 177081,
+        "amountMinor": 2656215
+      },
+      {
+        "description": "DESICCANT SACHET 50G",
+        "qty": 30,
+        "unitMinor": 202067,
+        "amountMinor": 6062010
+      },
+      {
+        "description": "STRAPPING SEAL 19MM",
+        "qty": 14,
+        "unitMinor": 223528,
+        "amountMinor": 3129392
+      }
+    ],
+    "layout": "minimal"
+  },
+  {
+    "id": "p7-010",
+    "vendor": "BRAMBLEGATE OPTICS INC",
+    "invoiceNumber": "INV-2026-1333",
+    "date": "2026-06-12",
+    "currency": "USD",
+    "subtotalMinor": 75235,
+    "taxMinor": 6207,
+    "totalMinor": 81442,
+    "taxId": null,
+    "poNumber": "PO-89425",
+    "lineItems": [
+      {
+        "description": "DESICCANT SACHET 50G",
+        "qty": 3,
+        "unitMinor": 6893,
+        "amountMinor": 20679
+      },
+      {
+        "description": "PALLET WRAP 500MM",
+        "qty": 13,
+        "unitMinor": 576,
+        "amountMinor": 7488
+      },
+      {
+        "description": "THERMAL LABELS 4X6",
+        "qty": 5,
+        "unitMinor": 1811,
+        "amountMinor": 9055
+      },
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 17,
+        "unitMinor": 1229,
+        "amountMinor": 20893
+      },
+      {
+        "description": "EDGE PROTECTOR 1M",
+        "qty": 8,
+        "unitMinor": 2140,
+        "amountMinor": 17120
+      }
+    ],
+    "layout": "classic"
+  },
+  {
+    "id": "p7-011",
+    "vendor": "TAMARIND SIGNAL WORKS",
+    "invoiceNumber": "INV-2026-1370",
+    "date": "2026-06-14",
+    "currency": "INR",
+    "subtotalMinor": 9781423,
+    "taxMinor": 1760656,
+    "totalMinor": 11542079,
+    "taxId": "25NMEQA8961Z2ZP",
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "LOGGER BATTERY CR2",
+        "qty": 18,
+        "unitMinor": 112842,
+        "amountMinor": 2031156
+      },
+      {
+        "description": "CRATE LINER LARGE",
+        "qty": 16,
+        "unitMinor": 149045,
+        "amountMinor": 2384720
+      },
+      {
+        "description": "CARTON 610X410X300",
+        "qty": 11,
+        "unitMinor": 226267,
+        "amountMinor": 2488937
+      },
+      {
+        "description": "EDGE PROTECTOR 1M",
+        "qty": 33,
+        "unitMinor": 87170,
+        "amountMinor": 2876610
+      }
+    ],
+    "layout": "receipt"
+  },
+  {
+    "id": "p7-012",
+    "vendor": "CINDERPATH MATERIALS LLC",
+    "invoiceNumber": "INV-2026-1407",
+    "date": "2026-06-13",
+    "currency": "USD",
+    "subtotalMinor": 270619,
+    "taxMinor": null,
+    "totalMinor": 270619,
+    "taxId": null,
+    "poNumber": null,
+    "lineItems": [
+      {
+        "description": "LOGGER BATTERY CR2",
+        "qty": 26,
+        "unitMinor": 6088,
+        "amountMinor": 158288
+      },
+      {
+        "description": "SHRINK FILM 450MM",
+        "qty": 3,
+        "unitMinor": 3227,
+        "amountMinor": 9681
+      },
+      {
+        "description": "EDGE PROTECTOR 1M",
+        "qty": 25,
+        "unitMinor": 4106,
+        "amountMinor": 102650
+      }
+    ],
+    "layout": "minimal"
+  }
+]

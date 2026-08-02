@@ -1,0 +1,1064 @@
+{
+  "seed": 20260802,
+  "watchlist": [
+    "Brightloom Kirana",
+    "Banyan Ledger",
+    "Monsoon Metrics",
+    "Zephyrwick Analytics",
+    "Quillstone Systems",
+    "Kolam Health"
+  ],
+  "thesis": "We back early-stage B2B software companies in India and Europe that sell to mid-market operators, with a bias toward vertical SaaS and developer infrastructure. We do not invest in consumer social, crypto, or hardware-first businesses.",
+  "items": [
+    {
+      "id": "p2-a-001",
+      "labelSet": "funding",
+      "text": "Brightloom Kirana, the Pune-based quick-commerce startup, has raised ₹47 crore in a pre-seed round led by Alcott Ridge Capital.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-002",
+      "labelSet": "funding",
+      "text": "Thornfield Partners has led a $15 million seed investment in Quillstone Systems, a devtools company headquartered in Melbourne.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-003",
+      "labelSet": "funding",
+      "text": "Banyan Ledger (Gurugram) announced the close of its series-a round at ₹17 crore, with participation from Oakmoss Seed.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-004",
+      "labelSet": "funding",
+      "text": "Harrowgate Freight, the Toronto-based logistics startup, has raised $38 million in a series-b round led by Alcott Ridge Capital.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-005",
+      "labelSet": "funding",
+      "text": "Marchmont Fund II has led a ₹80 crore series-c investment in Peacock Payroll, a hr-tech company headquartered in Pune.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-006",
+      "labelSet": "funding",
+      "text": "Marrowbone Capital Tech (Rotterdam) announced the close of its pre-seed round at $33 million, with participation from Thornfield Partners.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-007",
+      "labelSet": "funding",
+      "text": "Kolam Health, the Gurugram-based healthtech startup, has raised ₹56 crore in a seed round led by Dovetail Growth.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-008",
+      "labelSet": "funding",
+      "text": "Greyloft Ventures has led a $8 million series-a investment in Alderbrook Grid, a climate company headquartered in Lisbon.",
+      "trapType": "none",
+      "note": "plain funding event"
+    },
+    {
+      "id": "p2-a-009",
+      "labelSet": "funding",
+      "text": "Monsoon Metrics's founder Rhea Underhill will keynote the Oakmoss Seed Growth Summit in Indore next month.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-010",
+      "labelSet": "funding",
+      "text": "Harrowgate Freight is reportedly in early talks with Pallavi Bridge Capital about a future round, according to people familiar with the matter. Nothing has been signed.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-011",
+      "labelSet": "funding",
+      "text": "Rickshaw Robotics announced a distribution partnership with Pallavi Bridge Capital Ventures' portfolio company; financial terms were not disclosed.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-012",
+      "labelSet": "funding",
+      "text": "Marrowbone Capital Tech has appointed Vikram Ollandry as head of finance, a hire the company says will prepare it for an eventual institutional round.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-013",
+      "labelSet": "funding",
+      "text": "Dhaba Cloud opened a second engineering office in Hyderabad, doubling headcount there over the past year.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-014",
+      "labelSet": "funding",
+      "text": "Alderbrook Grid's founder Dev Castellan will keynote the Greyloft Ventures Growth Summit in Lisbon next month.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-015",
+      "labelSet": "funding",
+      "text": "Ghatak Security is reportedly in early talks with Greyloft Ventures about a future round, according to people familiar with the matter. Nothing has been signed.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-016",
+      "labelSet": "funding",
+      "text": "Vellichor Retail announced a distribution partnership with Greyloft Ventures Ventures' portfolio company; financial terms were not disclosed.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-017",
+      "labelSet": "funding",
+      "text": "Nilgiri Networks has appointed Meera Thistlewood as head of finance, a hire the company says will prepare it for an eventual institutional round.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-018",
+      "labelSet": "funding",
+      "text": "Quillstone Systems opened a second engineering office in Lisbon, doubling headcount there over the past year.",
+      "trapType": "distractor",
+      "note": "funding-adjacent vocabulary, no completed round"
+    },
+    {
+      "id": "p2-a-019",
+      "labelSet": "funding",
+      "text": "Zephyrwick Analytics, headquartered in Helsinki, raised ₹125 crore in a pre-seed round from India-focused Sable & Pike. The company has no India operations.",
+      "trapType": "unit-trap",
+      "note": "INR crore amount, non-India company"
+    },
+    {
+      "id": "p2-a-020",
+      "labelSet": "funding",
+      "text": "Tiffinwallah Systems, which operates entirely out of Hyderabad, closed a $28 million seed round led by Pallavi Bridge Capital.",
+      "trapType": "unit-trap",
+      "note": "USD amount, India-headquartered company"
+    },
+    {
+      "id": "p2-a-021",
+      "labelSet": "funding",
+      "text": "Tanglefoot AI, headquartered in Helsinki, raised ₹133 crore in a series-a round from India-focused Alcott Ridge Capital. The company has no India operations.",
+      "trapType": "unit-trap",
+      "note": "INR crore amount, non-India company"
+    },
+    {
+      "id": "p2-a-022",
+      "labelSet": "funding",
+      "text": "Monsoon Metrics, which operates entirely out of Hyderabad, closed a $28 million series-b round led by Dovetail Growth.",
+      "trapType": "unit-trap",
+      "note": "USD amount, India-headquartered company"
+    },
+    {
+      "id": "p2-a-023",
+      "labelSet": "funding",
+      "text": "Pellucid Bio, headquartered in Lisbon, raised ₹80 crore in a series-c round from India-focused Sable & Pike. The company has no India operations.",
+      "trapType": "unit-trap",
+      "note": "INR crore amount, non-India company"
+    },
+    {
+      "id": "p2-a-024",
+      "labelSet": "funding",
+      "text": "Rickshaw Robotics, which operates entirely out of Pune, closed a $5 million pre-seed round led by Alcott Ridge Capital.",
+      "trapType": "unit-trap",
+      "note": "USD amount, India-headquartered company"
+    },
+    {
+      "id": "p2-a-025",
+      "labelSet": "funding",
+      "text": "Fenwick Loom, headquartered in Lisbon, raised ₹82 crore in a seed round from India-focused Dovetail Growth. The company has no India operations.",
+      "trapType": "unit-trap",
+      "note": "INR crore amount, non-India company"
+    },
+    {
+      "id": "p2-a-026",
+      "labelSet": "funding",
+      "text": "Dhaba Cloud, which operates entirely out of Pune, closed a $8 million series-a round led by Oakmoss Seed.",
+      "trapType": "unit-trap",
+      "note": "USD amount, India-headquartered company"
+    },
+    {
+      "id": "p2-a-027",
+      "labelSet": "funding",
+      "text": "Rickshaw Robotics has raised about eight crore in a seed round, its first institutional cheque, from Alcott Ridge Capital. The Bengaluru company will use it to expand its hardware team.",
+      "trapType": "spelled-number",
+      "note": "amount spelled out in Indian numbering"
+    },
+    {
+      "id": "p2-a-028",
+      "labelSet": "funding",
+      "text": "Kolam Health has raised about twelve crore in a series-a round, its first institutional cheque, from Thornfield Partners. The Pune company will use it to expand its healthtech team.",
+      "trapType": "spelled-number",
+      "note": "amount spelled out in Indian numbering"
+    },
+    {
+      "id": "p2-a-029",
+      "labelSet": "funding",
+      "text": "Dhaba Cloud has raised about eighteen crore in a series-b round, its first institutional cheque, from Pallavi Bridge Capital. The Bengaluru company will use it to expand its saas team.",
+      "trapType": "spelled-number",
+      "note": "amount spelled out in Indian numbering"
+    },
+    {
+      "id": "p2-a-030",
+      "labelSet": "funding",
+      "text": "Sitaphal Labs has raised about twenty-five crore in a series-c round, its first institutional cheque, from Alcott Ridge Capital. The Chennai company will use it to expand its agritech team.",
+      "trapType": "spelled-number",
+      "note": "amount spelled out in Indian numbering"
+    },
+    {
+      "id": "p2-a-031",
+      "labelSet": "funding",
+      "text": "Ghatak Security has raised about forty crore in a pre-seed round, its first institutional cheque, from Thornfield Partners. The Gurugram company will use it to expand its security team.",
+      "trapType": "spelled-number",
+      "note": "amount spelled out in Indian numbering"
+    },
+    {
+      "id": "p2-a-032",
+      "labelSet": "funding",
+      "text": "Dhaba Cloud (Hyderabad) has closed a new funding round led by Alcott Ridge Capital. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-033",
+      "labelSet": "funding",
+      "text": "Fenwick Loom (Rotterdam) has closed a new funding round led by Sable & Pike. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-034",
+      "labelSet": "funding",
+      "text": "Ghatak Security (Gurugram) has closed a new funding round led by Alcott Ridge Capital. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-035",
+      "labelSet": "funding",
+      "text": "Ptarmigan Health (Helsinki) has closed a new funding round led by Alcott Ridge Capital. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-036",
+      "labelSet": "funding",
+      "text": "Nilgiri Networks (Gurugram) has closed a new funding round led by Marchmont Fund II. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-037",
+      "labelSet": "funding",
+      "text": "Zephyrwick Analytics (Rotterdam) has closed a new funding round led by Alcott Ridge Capital. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-038",
+      "labelSet": "funding",
+      "text": "Tiffinwallah Systems (Pune) has closed a new funding round led by Oakmoss Seed. The company declined to disclose the stage or the amount.",
+      "trapType": "absent",
+      "note": "genuine event, stage never stated — correct answer is null"
+    },
+    {
+      "id": "p2-a-039",
+      "labelSet": "funding",
+      "text": "Brightloom Analytics, based in Rotterdam, raised $21 million in a series-c round led by Sable & Pike. The round is unrelated to Hyderabad-based Brightloom Kirana, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Brightloom Analytics funded, Brightloom Kirana merely mentioned"
+    },
+    {
+      "id": "p2-a-040",
+      "labelSet": "funding",
+      "text": "Kirana Cart Technologies, based in Helsinki, raised $5 million in a series-b round led by Dovetail Growth. The round is unrelated to Gurugram-based Kirana Kart, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Kirana Cart Technologies funded, Kirana Kart merely mentioned"
+    },
+    {
+      "id": "p2-a-041",
+      "labelSet": "funding",
+      "text": "Banyan Leaf Ventures, based in Melbourne, raised $16 million in a pre-seed round led by Oakmoss Seed. The round is unrelated to Chennai-based Banyan Ledger, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Banyan Leaf Ventures funded, Banyan Ledger merely mentioned"
+    },
+    {
+      "id": "p2-a-042",
+      "labelSet": "funding",
+      "text": "Monsoon Media Group, based in Toronto, raised $25 million in a series-c round led by Pallavi Bridge Capital. The round is unrelated to Bengaluru-based Monsoon Metrics, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Monsoon Media Group funded, Monsoon Metrics merely mentioned"
+    },
+    {
+      "id": "p2-a-043",
+      "labelSet": "funding",
+      "text": "Peacock Provisions, based in Helsinki, raised $11 million in a series-a round led by Pallavi Bridge Capital. The round is unrelated to Gurugram-based Peacock Payroll, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Peacock Provisions funded, Peacock Payroll merely mentioned"
+    },
+    {
+      "id": "p2-a-044",
+      "labelSet": "funding",
+      "text": "Zephyr Wick Candles, based in Gurugram, raised $19 million in a series-b round led by Dovetail Growth. The round is unrelated to Melbourne-based Zephyrwick Analytics, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Zephyr Wick Candles funded, Zephyrwick Analytics merely mentioned"
+    },
+    {
+      "id": "p2-a-045",
+      "labelSet": "funding",
+      "text": "Quillstone Partners, based in Chennai, raised $8 million in a series-b round led by Marchmont Fund II. The round is unrelated to Toronto-based Quillstone Systems, a separate company with a similar name.",
+      "trapType": "distractor",
+      "note": "entity collision: Quillstone Partners funded, Quillstone Systems merely mentioned"
+    },
+    {
+      "id": "p2-b-001",
+      "labelSet": "meeting",
+      "text": "Title: Q1 Board Meeting — Zephyrwick Analytics\nNotes: Quarterly board review. Deck circulated in advance; approved the revised operating plan and two board resolutions. Attendees: full board plus Nina Farrowgate.",
+      "trapType": "none",
+      "note": "formal quarterly board meeting"
+    },
+    {
+      "id": "p2-b-002",
+      "labelSet": "meeting",
+      "text": "Title: Q2 Board Meeting — Vellichor Retail\nNotes: Quarterly board review. Deck circulated in advance; approved the revised operating plan and two board resolutions. Attendees: full board plus Dev Castellan.",
+      "trapType": "none",
+      "note": "formal quarterly board meeting"
+    },
+    {
+      "id": "p2-b-003",
+      "labelSet": "meeting",
+      "text": "Title: Q3 Board Meeting — Peacock Payroll\nNotes: Quarterly board review. Deck circulated in advance; approved the revised operating plan and two board resolutions. Attendees: full board plus Kabir Ashgrove.",
+      "trapType": "none",
+      "note": "formal quarterly board meeting"
+    },
+    {
+      "id": "p2-b-004",
+      "labelSet": "meeting",
+      "text": "Title: Q4 Board Meeting — Pellucid Bio\nNotes: Quarterly board review. Deck circulated in advance; approved the revised operating plan and two board resolutions. Attendees: full board plus Nina Farrowgate.",
+      "trapType": "none",
+      "note": "formal quarterly board meeting"
+    },
+    {
+      "id": "p2-b-005",
+      "labelSet": "meeting",
+      "text": "Title: Q1 Board Meeting — Tanglefoot AI\nNotes: Quarterly board review. Deck circulated in advance; approved the revised operating plan and two board resolutions. Attendees: full board plus Vikram Ollandry.",
+      "trapType": "none",
+      "note": "formal quarterly board meeting"
+    },
+    {
+      "id": "p2-b-006",
+      "labelSet": "meeting",
+      "text": "Title: Q2 Board Meeting — Chandni Credit\nNotes: Quarterly board review. Deck circulated in advance; approved the revised operating plan and two board resolutions. Attendees: full board plus Nina Farrowgate.",
+      "trapType": "none",
+      "note": "formal quarterly board meeting"
+    },
+    {
+      "id": "p2-b-007",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Rhea Underhill (Banyan Ledger)\nNotes: Informal monthly check-in with the founder of an existing portfolio company. Talked through hiring, a churned account, and the next fundraise timeline. No deck, no resolutions.",
+      "trapType": "none",
+      "note": "informal check-in with a portfolio founder"
+    },
+    {
+      "id": "p2-b-008",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Priya Sandhurst (Tiffinwallah Systems)\nNotes: Informal monthly check-in with the founder of an existing portfolio company. Talked through hiring, a churned account, and the next fundraise timeline. No deck, no resolutions.",
+      "trapType": "none",
+      "note": "informal check-in with a portfolio founder"
+    },
+    {
+      "id": "p2-b-009",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Arjun Pellworth (Dhaba Cloud)\nNotes: Informal monthly check-in with the founder of an existing portfolio company. Talked through hiring, a churned account, and the next fundraise timeline. No deck, no resolutions.",
+      "trapType": "none",
+      "note": "informal check-in with a portfolio founder"
+    },
+    {
+      "id": "p2-b-010",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Meera Thistlewood (Monsoon Metrics)\nNotes: Informal monthly check-in with the founder of an existing portfolio company. Talked through hiring, a churned account, and the next fundraise timeline. No deck, no resolutions.",
+      "trapType": "none",
+      "note": "informal check-in with a portfolio founder"
+    },
+    {
+      "id": "p2-b-011",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Nina Farrowgate (Nilgiri Networks)\nNotes: Informal monthly check-in with the founder of an existing portfolio company. Talked through hiring, a churned account, and the next fundraise timeline. No deck, no resolutions.",
+      "trapType": "none",
+      "note": "informal check-in with a portfolio founder"
+    },
+    {
+      "id": "p2-b-012",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Anaya Vermillion (Peacock Payroll)\nNotes: Informal monthly check-in with the founder of an existing portfolio company. Talked through hiring, a churned account, and the next fundraise timeline. No deck, no resolutions.",
+      "trapType": "none",
+      "note": "informal check-in with a portfolio founder"
+    },
+    {
+      "id": "p2-b-013",
+      "labelSet": "meeting",
+      "text": "Title: Fund Ops — Monthly Close\nNotes: Firm-internal session. Attendees are all members of the investment team. Went through the pipeline and assigned follow-ups. No external participants.",
+      "trapType": "none",
+      "note": "firm-internal meeting only"
+    },
+    {
+      "id": "p2-b-014",
+      "labelSet": "meeting",
+      "text": "Title: Internal: LP Reporting Prep\nNotes: Firm-internal session. Attendees are all members of the investment team. Went through the pipeline and assigned follow-ups. No external participants.",
+      "trapType": "none",
+      "note": "firm-internal meeting only"
+    },
+    {
+      "id": "p2-b-015",
+      "labelSet": "meeting",
+      "text": "Title: Pipeline Standup\nNotes: Firm-internal session. Attendees are all members of the investment team. Went through the pipeline and assigned follow-ups. No external participants.",
+      "trapType": "none",
+      "note": "firm-internal meeting only"
+    },
+    {
+      "id": "p2-b-016",
+      "labelSet": "meeting",
+      "text": "Title: Fund Ops — Monthly Close\nNotes: Firm-internal session. Attendees are all members of the investment team. Went through the pipeline and assigned follow-ups. No external participants.",
+      "trapType": "none",
+      "note": "firm-internal meeting only"
+    },
+    {
+      "id": "p2-b-017",
+      "labelSet": "meeting",
+      "text": "Title: Team Offsite Planning\nNotes: Firm-internal session. Attendees are all members of the investment team. Went through the pipeline and assigned follow-ups. No external participants.",
+      "trapType": "none",
+      "note": "firm-internal meeting only"
+    },
+    {
+      "id": "p2-b-018",
+      "labelSet": "meeting",
+      "text": "Title: Weekly Investment Team Sync\nNotes: Firm-internal session. Attendees are all members of the investment team. Went through the pipeline and assigned follow-ups. No external participants.",
+      "trapType": "none",
+      "note": "firm-internal meeting only"
+    },
+    {
+      "id": "p2-b-019",
+      "labelSet": "meeting",
+      "text": "Title: Conference debrief\nNotes: External participant who is not a portfolio founder. Coverage of general market topics; no portfolio company governance discussed.",
+      "trapType": "none",
+      "note": "external, non-portfolio-founder"
+    },
+    {
+      "id": "p2-b-020",
+      "labelSet": "meeting",
+      "text": "Title: Conference debrief\nNotes: External participant who is not a portfolio founder. Coverage of general market topics; no portfolio company governance discussed.",
+      "trapType": "none",
+      "note": "external, non-portfolio-founder"
+    },
+    {
+      "id": "p2-b-021",
+      "labelSet": "meeting",
+      "text": "Title: Auditor walkthrough\nNotes: External participant who is not a portfolio founder. Coverage of general market topics; no portfolio company governance discussed.",
+      "trapType": "none",
+      "note": "external, non-portfolio-founder"
+    },
+    {
+      "id": "p2-b-022",
+      "labelSet": "meeting",
+      "text": "Title: LP update call\nNotes: External participant who is not a portfolio founder. Coverage of general market topics; no portfolio company governance discussed.",
+      "trapType": "none",
+      "note": "external, non-portfolio-founder"
+    },
+    {
+      "id": "p2-b-023",
+      "labelSet": "meeting",
+      "text": "Title: Conference debrief\nNotes: External participant who is not a portfolio founder. Coverage of general market topics; no portfolio company governance discussed.",
+      "trapType": "none",
+      "note": "external, non-portfolio-founder"
+    },
+    {
+      "id": "p2-b-024",
+      "labelSet": "meeting",
+      "text": "Title: Coffee: Anaya Vermillion (not a portfolio company)\nNotes: External participant who is not a portfolio founder. Coverage of general market topics; no portfolio company governance discussed.",
+      "trapType": "none",
+      "note": "external, non-portfolio-founder"
+    },
+    {
+      "id": "p2-b-025",
+      "labelSet": "meeting",
+      "text": "Title: Board deck prep — internal only\nNotes: Investment team only. Drafted the slides we will present at next week's board meeting. No founder or independent director present.",
+      "trapType": "distractor",
+      "note": "title says \"board\", meeting is internal prep"
+    },
+    {
+      "id": "p2-b-026",
+      "labelSet": "meeting",
+      "text": "Title: Founder intro — Harrowgate Freight\nNotes: First time meeting this founder, sourced through a warm intro. Not a portfolio company; evaluating whether to take a second meeting.",
+      "trapType": "distractor",
+      "note": "title says \"founder\", but not a portfolio founder"
+    },
+    {
+      "id": "p2-b-027",
+      "labelSet": "meeting",
+      "text": "Title: Sync with Anaya Vermillion\nNotes: Monthly check-in with the founder of Brightloom Kirana, an existing portfolio company. Discussed runway and a senior hire. Informal, no board pack.",
+      "trapType": "distractor",
+      "note": "neutral title, content identifies a portfolio catch-up"
+    },
+    {
+      "id": "p2-b-028",
+      "labelSet": "meeting",
+      "text": "Title: Brightloom Kirana — quarterly\nNotes: Formal session with the full board including both independent directors. Approved the annual budget and recorded a resolution on the ESOP pool.",
+      "trapType": "distractor",
+      "note": "informal title, formal board content"
+    },
+    {
+      "id": "p2-b-029",
+      "labelSet": "meeting",
+      "text": "Title: Portfolio review\nNotes: Internal only. Went company by company through the portfolio and updated our own marks. No founders attended.",
+      "trapType": "distractor",
+      "note": "\"portfolio\" in title but no external attendee"
+    },
+    {
+      "id": "p2-b-030",
+      "labelSet": "meeting",
+      "text": "Title: Board observer sync — Banyan Ledger\nNotes: Our board observer briefed the internal team on what happened at last week's board meeting. No company representatives attended this session.",
+      "trapType": "distractor",
+      "note": "a debrief ABOUT a board call is not a board call"
+    },
+    {
+      "id": "p2-b-031",
+      "labelSet": "meeting",
+      "text": "Title: Catch-up: Tobias Rennick\nNotes: Founder of a company we passed on two years ago. Keeping the relationship warm; he is now raising again elsewhere.",
+      "trapType": "distractor",
+      "note": "catch-up with a non-portfolio founder"
+    },
+    {
+      "id": "p2-b-032",
+      "labelSet": "meeting",
+      "text": "Title: Emergency board call — Kolam Health\nNotes: Unscheduled board session called by the chair to approve bridge financing. Full board attended and a resolution was passed.",
+      "trapType": "distractor",
+      "note": "unscheduled but genuinely a board call"
+    },
+    {
+      "id": "p2-b-033",
+      "labelSet": "meeting",
+      "text": "Title: Weekly sync — Monsoon Metrics\nNotes: Recurring informal call with the founding team of a portfolio company. Product and hiring updates only; no governance items.",
+      "trapType": "distractor",
+      "note": "\"sync\" with a portfolio founder is a catch-up"
+    },
+    {
+      "id": "p2-b-034",
+      "labelSet": "meeting",
+      "text": "Title: Investment committee\nNotes: Internal decision-making forum. Partners only. Voted on two new investments.",
+      "trapType": "distractor",
+      "note": "IC is internal, not a board call"
+    },
+    {
+      "id": "p2-b-035",
+      "labelSet": "meeting",
+      "text": "Title: Board meeting prep call with founder\nNotes: One-to-one with the founder of Dhaba Cloud ahead of the formal board meeting. Walked through the numbers she plans to present. Not the board meeting itself.",
+      "trapType": "distractor",
+      "note": "prep with a portfolio founder, not the board meeting"
+    },
+    {
+      "id": "p2-b-036",
+      "labelSet": "meeting",
+      "text": "Title: Zephyrwick Analytics — annual general meeting\nNotes: Shareholder AGM with the full board and company counsel present. Resolutions on auditor appointment were passed.",
+      "trapType": "distractor",
+      "note": "AGM with board governance content"
+    },
+    {
+      "id": "p2-b-037",
+      "labelSet": "meeting",
+      "text": "Title: Coffee with Dev Castellan\nNotes: Founder of Tiffinwallah Systems, in our portfolio since the seed round. Casual conversation about a competitor's raise and his hiring plans.",
+      "trapType": "distractor",
+      "note": "casual framing, portfolio founder"
+    },
+    {
+      "id": "p2-b-038",
+      "labelSet": "meeting",
+      "text": "Title: Diligence call — reference\nNotes: Spoke to a customer reference for a company we are evaluating. External participant, not a founder, not in the portfolio.",
+      "trapType": "distractor",
+      "note": "diligence reference call"
+    },
+    {
+      "id": "p2-b-039",
+      "labelSet": "meeting",
+      "text": "Title: Board — internal pre-read\nNotes: Team read-through of the board materials before circulation. Internal attendees only.",
+      "trapType": "distractor",
+      "note": "again \"board\" in the title, internal content"
+    },
+    {
+      "id": "p2-b-040",
+      "labelSet": "meeting",
+      "text": "Title: Quarterly review with Peacock Payroll\nNotes: Full board in attendance including the independent director; approved the quarterly accounts and a change to the option pool.",
+      "trapType": "distractor",
+      "note": "\"review\" framing, board governance content"
+    },
+    {
+      "id": "p2-c-001",
+      "labelSet": "signal",
+      "text": "Heads up — Brightloom Kirana just lost their largest customer, roughly 18% of ARR. Founder confirmed on a call this morning.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-002",
+      "labelSet": "signal",
+      "text": "Banyan Ledger's VP Engineering resigned yesterday. Second senior departure this quarter.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-003",
+      "labelSet": "signal",
+      "text": "Monsoon Metrics is starting to raise a bridge. They have about five months of runway left.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-004",
+      "labelSet": "signal",
+      "text": "Zephyrwick Analytics had a 14-hour outage over the weekend; two enterprise accounts have asked for SLA credits.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-005",
+      "labelSet": "signal",
+      "text": "Quillstone Systems signed their largest contract to date — mid-six-figures annual, three-year term.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-006",
+      "labelSet": "signal",
+      "text": "Kolam Health is being approached about an acquisition by a strategic. Early, but the founder wants advice.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-007",
+      "labelSet": "signal",
+      "text": "Brightloom Kirana missed their Q3 plan by 30% and has paused all hiring.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-008",
+      "labelSet": "signal",
+      "text": "Heads up — Banyan Ledger just lost their largest customer, roughly 18% of ARR. Founder confirmed on a call this morning.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-009",
+      "labelSet": "signal",
+      "text": "Monsoon Metrics's VP Engineering resigned yesterday. Second senior departure this quarter.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-010",
+      "labelSet": "signal",
+      "text": "Zephyrwick Analytics is starting to raise a bridge. They have about five months of runway left.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-011",
+      "labelSet": "signal",
+      "text": "Quillstone Systems had a 14-hour outage over the weekend; two enterprise accounts have asked for SLA credits.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-012",
+      "labelSet": "signal",
+      "text": "Kolam Health signed their largest contract to date — mid-six-figures annual, three-year term.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-013",
+      "labelSet": "signal",
+      "text": "Brightloom Kirana is being approached about an acquisition by a strategic. Early, but the founder wants advice.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-014",
+      "labelSet": "signal",
+      "text": "Banyan Ledger missed their Q3 plan by 30% and has paused all hiring.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-015",
+      "labelSet": "signal",
+      "text": "Heads up — Monsoon Metrics just lost their largest customer, roughly 18% of ARR. Founder confirmed on a call this morning.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-016",
+      "labelSet": "signal",
+      "text": "Zephyrwick Analytics's VP Engineering resigned yesterday. Second senior departure this quarter.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-017",
+      "labelSet": "signal",
+      "text": "Quillstone Systems is starting to raise a bridge. They have about five months of runway left.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-018",
+      "labelSet": "signal",
+      "text": "Kolam Health had a 14-hour outage over the weekend; two enterprise accounts have asked for SLA credits.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-019",
+      "labelSet": "signal",
+      "text": "Brightloom Kirana signed their largest contract to date — mid-six-figures annual, three-year term.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-020",
+      "labelSet": "signal",
+      "text": "Banyan Ledger is being approached about an acquisition by a strategic. Early, but the founder wants advice.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-021",
+      "labelSet": "signal",
+      "text": "Monsoon Metrics missed their Q3 plan by 30% and has paused all hiring.",
+      "trapType": "none",
+      "note": "material event, watchlist company"
+    },
+    {
+      "id": "p2-c-022",
+      "labelSet": "signal",
+      "text": "Brightloom Analytics just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-023",
+      "labelSet": "signal",
+      "text": "Banyan Leaf Ventures just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-024",
+      "labelSet": "signal",
+      "text": "Monsoon Media Group just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-025",
+      "labelSet": "signal",
+      "text": "Zephyr Wick Candles just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-026",
+      "labelSet": "signal",
+      "text": "Quillstone Partners just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-027",
+      "labelSet": "signal",
+      "text": "Kolam Interiors just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-028",
+      "labelSet": "signal",
+      "text": "Brightloom Kirana Foundation just announced a round and a big customer win — congratulations to that team.",
+      "trapType": "distractor",
+      "note": "name collides with a watchlist company but is a different entity"
+    },
+    {
+      "id": "p2-c-029",
+      "labelSet": "signal",
+      "text": "Someone from Monsoon Metrics shared a blog post about hiring. Decent read, nothing actionable.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-c-030",
+      "labelSet": "signal",
+      "text": "Zephyrwick Analytics's office is moving one floor up in the same building next month.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-c-031",
+      "labelSet": "signal",
+      "text": "Saw a Quillstone Systems sticker on a laptop at the conference today.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-c-032",
+      "labelSet": "signal",
+      "text": "Kolam Health posted a job ad for a junior designer.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-c-033",
+      "labelSet": "signal",
+      "text": "Brightloom Kirana's founder liked our last portfolio newsletter.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-c-034",
+      "labelSet": "signal",
+      "text": "Reminder: Banyan Ledger swag order arrives Thursday.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-c-035",
+      "labelSet": "signal",
+      "text": "Monsoon Metrics rescheduled their standup to 10am.",
+      "trapType": "distractor",
+      "note": "watchlist company, immaterial content"
+    },
+    {
+      "id": "p2-d-001",
+      "labelSet": "thesis",
+      "text": "Pune-based vertical SaaS for diagnostic-lab chains: scheduling, billing and NABL compliance in one product. Sells to 20-200 bed operators.",
+      "trapType": "none",
+      "note": "core thesis: B2B vertical SaaS / dev infra, India or Europe, mid-market"
+    },
+    {
+      "id": "p2-d-002",
+      "labelSet": "thesis",
+      "text": "Berlin developer-infrastructure company selling deterministic CI caching to mid-market engineering teams.",
+      "trapType": "none",
+      "note": "core thesis: B2B vertical SaaS / dev infra, India or Europe, mid-market"
+    },
+    {
+      "id": "p2-d-003",
+      "labelSet": "thesis",
+      "text": "Bengaluru vertical SaaS for auto-component manufacturers — shop-floor scheduling and quality tracking for mid-sized plants.",
+      "trapType": "none",
+      "note": "core thesis: B2B vertical SaaS / dev infra, India or Europe, mid-market"
+    },
+    {
+      "id": "p2-d-004",
+      "labelSet": "thesis",
+      "text": "Lisbon-based observability tooling aimed at mid-market SaaS engineering teams, self-serve then sales-assisted.",
+      "trapType": "none",
+      "note": "core thesis: B2B vertical SaaS / dev infra, India or Europe, mid-market"
+    },
+    {
+      "id": "p2-d-005",
+      "labelSet": "thesis",
+      "text": "Chennai B2B software for freight forwarders: documentation, customs filing and rate management for mid-market operators.",
+      "trapType": "none",
+      "note": "core thesis: B2B vertical SaaS / dev infra, India or Europe, mid-market"
+    },
+    {
+      "id": "p2-d-006",
+      "labelSet": "thesis",
+      "text": "Amsterdam developer platform for feature-flagging and progressive rollout, sold to 50-500 engineer organisations.",
+      "trapType": "none",
+      "note": "core thesis: B2B vertical SaaS / dev infra, India or Europe, mid-market"
+    },
+    {
+      "id": "p2-d-007",
+      "labelSet": "thesis",
+      "text": "San Francisco vertical SaaS for dental practices, mid-market, strong retention. US-only go-to-market.",
+      "trapType": "none",
+      "note": "adjacent: right shape, wrong geography / stage / model"
+    },
+    {
+      "id": "p2-d-008",
+      "labelSet": "thesis",
+      "text": "Gurugram B2B software selling exclusively to large enterprises and public-sector banks; 18-month sales cycles.",
+      "trapType": "none",
+      "note": "adjacent: right shape, wrong geography / stage / model"
+    },
+    {
+      "id": "p2-d-009",
+      "labelSet": "thesis",
+      "text": "Warsaw developer tooling company, but the buyer is individual developers on a prosumer subscription.",
+      "trapType": "none",
+      "note": "adjacent: right shape, wrong geography / stage / model"
+    },
+    {
+      "id": "p2-d-010",
+      "labelSet": "thesis",
+      "text": "Mumbai B2B marketplace for industrial spares — takes a transaction fee rather than licensing software.",
+      "trapType": "none",
+      "note": "adjacent: right shape, wrong geography / stage / model"
+    },
+    {
+      "id": "p2-d-011",
+      "labelSet": "thesis",
+      "text": "Helsinki vertical SaaS for shipping lines, mid-market, but the company is at Series C with 300 staff.",
+      "trapType": "none",
+      "note": "adjacent: right shape, wrong geography / stage / model"
+    },
+    {
+      "id": "p2-d-012",
+      "labelSet": "thesis",
+      "text": "Bengaluru services firm doing custom software builds for mid-market manufacturers; project-based revenue.",
+      "trapType": "none",
+      "note": "adjacent: right shape, wrong geography / stage / model"
+    },
+    {
+      "id": "p2-d-013",
+      "labelSet": "thesis",
+      "text": "A consumer social app for sharing short cooking videos, monetised through creator tipping.",
+      "trapType": "none",
+      "note": "explicitly excluded category"
+    },
+    {
+      "id": "p2-d-014",
+      "labelSet": "thesis",
+      "text": "A crypto exchange and custody product for retail investors in emerging markets.",
+      "trapType": "none",
+      "note": "explicitly excluded category"
+    },
+    {
+      "id": "p2-d-015",
+      "labelSet": "thesis",
+      "text": "A hardware-first company manufacturing warehouse robots; software is bundled with the units.",
+      "trapType": "none",
+      "note": "explicitly excluded category"
+    },
+    {
+      "id": "p2-d-016",
+      "labelSet": "thesis",
+      "text": "A consumer dating application with a subscription tier, launching in three metros.",
+      "trapType": "none",
+      "note": "explicitly excluded category"
+    },
+    {
+      "id": "p2-d-017",
+      "labelSet": "thesis",
+      "text": "A tokenised real-estate platform letting retail buyers purchase fractional property NFTs.",
+      "trapType": "none",
+      "note": "explicitly excluded category"
+    },
+    {
+      "id": "p2-d-018",
+      "labelSet": "thesis",
+      "text": "A wearable fitness tracker company; revenue is device sales with an optional companion app.",
+      "trapType": "none",
+      "note": "explicitly excluded category"
+    },
+    {
+      "id": "p2-d-019",
+      "labelSet": "thesis",
+      "text": "Bengaluru software company selling fleet-maintenance scheduling to mid-market logistics operators. Their customers run hardware; the product is pure SaaS.",
+      "trapType": "distractor",
+      "note": "hardware-adjacent language, but the company is software"
+    },
+    {
+      "id": "p2-d-020",
+      "labelSet": "thesis",
+      "text": "Pune company building firmware and custom silicon for industrial sensors, sold to mid-market plants in India.",
+      "trapType": "distractor",
+      "note": "India + mid-market, but hardware-first"
+    },
+    {
+      "id": "p2-d-021",
+      "labelSet": "thesis",
+      "text": "London B2B software helping mid-market banks meet crypto-asset reporting obligations. The company holds no digital assets itself.",
+      "trapType": "distractor",
+      "note": "the word \"crypto\" appears, but this is B2B regtech"
+    },
+    {
+      "id": "p2-d-022",
+      "labelSet": "thesis",
+      "text": "Hyderabad platform where consumers discover and book salon appointments; salons pay a monthly subscription.",
+      "trapType": "distractor",
+      "note": "framed as B2B subscription, demand side is consumer social commerce"
+    },
+    {
+      "id": "p2-d-023",
+      "labelSet": "thesis",
+      "text": "Madrid vertical SaaS for veterinary clinic groups, mid-market, strong net retention.",
+      "trapType": "distractor",
+      "note": "plain in-thesis, no trap wording"
+    },
+    {
+      "id": "p2-d-024",
+      "labelSet": "thesis",
+      "text": "Bengaluru developer-infrastructure company whose only product is a self-custody crypto wallet SDK for app developers.",
+      "trapType": "distractor",
+      "note": "dev infra framing, crypto substance"
+    },
+    {
+      "id": "p2-d-025",
+      "labelSet": "thesis",
+      "text": "Toronto vertical SaaS for independent pharmacies, mid-market, expanding into the UK next year.",
+      "trapType": "distractor",
+      "note": "right shape, geography outside India/Europe today"
+    },
+    {
+      "id": "p2-d-026",
+      "labelSet": "thesis",
+      "text": "Kraków B2B software for mid-market insurers; the founding team previously built consumer social products.",
+      "trapType": "distractor",
+      "note": "founder background is consumer, the company is not"
+    },
+    {
+      "id": "p2-d-027",
+      "labelSet": "thesis",
+      "text": "Delhi company selling a mid-market SaaS product bundled with the ruggedised tablets its customers must buy from them.",
+      "trapType": "distractor",
+      "note": "software plus mandatory hardware — genuinely between categories"
+    },
+    {
+      "id": "p2-d-028",
+      "labelSet": "thesis",
+      "text": "Rotterdam developer tooling for supply-chain integrations, sold to mid-market shippers across the EU.",
+      "trapType": "distractor",
+      "note": "plain in-thesis"
+    },
+    {
+      "id": "p2-d-029",
+      "labelSet": "thesis",
+      "text": "Mumbai social network for chartered accountants, free to join, monetised via recruiter ads.",
+      "trapType": "distractor",
+      "note": "professional framing, consumer social model"
+    },
+    {
+      "id": "p2-d-030",
+      "labelSet": "thesis",
+      "text": "Stockholm vertical SaaS for mid-market construction firms, currently pre-revenue with a design partner.",
+      "trapType": "distractor",
+      "note": "very early but squarely in thesis"
+    }
+  ]
+}

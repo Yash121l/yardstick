@@ -1,0 +1,2930 @@
+{
+  "seed": 20260801,
+  "gold": [
+    {
+      "id": "p1-001",
+      "facts": [
+        {
+          "id": "p1-001-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 5.5,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 55000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹5.5 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-001-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 115,
+          "unit": "%",
+          "canonical": {
+            "value": 115,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 115% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-001-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 25,
+          "unit": "months",
+          "canonical": {
+            "value": 25,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at twenty-five months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-001-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 95,
+          "unit": "people",
+          "canonical": {
+            "value": 95,
+            "unit": "count"
+          },
+          "quote": "the team is at about ninety-five people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-001-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "net_churn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-001-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Vikram Ollandry joining as VP Engineering",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Vikram Ollandry as VP Engineering, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-001-f7",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series C planned for Q4",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series C conversation in Q4",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-001-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-002",
+      "facts": [
+        {
+          "id": "p1-002-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 6.4,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 64000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹6.4 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-002-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 83,
+          "unit": "%",
+          "canonical": {
+            "value": 83,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 83%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-002-f3",
+          "field": "burn",
+          "kind": "metric",
+          "value": 59,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 5900000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹59 lakh a month",
+          "trapType": "unit-trap",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-002-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 12,
+          "unit": "months",
+          "canonical": {
+            "value": 12,
+            "unit": "months"
+          },
+          "quote": "that gives us twelve months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-002-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "headcount is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-002-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Arjun Pellworth departing (finance lead)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Arjun Pellworth, our finance lead, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-002-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Fenwick Loom not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Fenwick Loom confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-002-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "fundraise_intent is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-003",
+      "facts": [
+        {
+          "id": "p1-003-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 2.8,
+          "unit": "USD million",
+          "canonical": {
+            "value": 2800000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $2.8 million",
+          "trapType": "stale",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-003-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 84,
+          "unit": "%",
+          "canonical": {
+            "value": 84,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 84% year on year",
+          "trapType": "none",
+          "note": "plain YoY growth"
+        },
+        {
+          "id": "p1-003-f3",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 70,
+          "unit": "people",
+          "canonical": {
+            "value": 70,
+            "unit": "count"
+          },
+          "quote": "the team is at about seventy people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-003-f4",
+          "field": "burn",
+          "kind": "metric",
+          "value": 341,
+          "unit": "USD thousand",
+          "canonical": {
+            "value": 341000,
+            "unit": "USD"
+          },
+          "quote": "net burn is about $341k a month",
+          "trapType": "none",
+          "note": "burn in USD thousands"
+        },
+        {
+          "id": "p1-003-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 8.8,
+          "unit": "%",
+          "canonical": {
+            "value": 8.8,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 8.8% for the quarter",
+          "trapType": "distractor",
+          "note": "a logo-churn figure sits nearby; the question asks for revenue churn"
+        },
+        {
+          "id": "p1-003-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-003-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Quillstone Systems not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Quillstone Systems confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-003-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series C planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series C conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        }
+      ]
+    },
+    {
+      "id": "p1-004",
+      "facts": [
+        {
+          "id": "p1-004-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 9.4,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 94000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹9.4 crore",
+          "trapType": "none",
+          "note": "plain ARR"
+        },
+        {
+          "id": "p1-004-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 58,
+          "unit": "%",
+          "canonical": {
+            "value": 58,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 58%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-004-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 18,
+          "unit": "months",
+          "canonical": {
+            "value": 18,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at eighteen months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-004-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 42,
+          "unit": "people",
+          "canonical": {
+            "value": 42,
+            "unit": "count"
+          },
+          "quote": "we're at 42 people across both offices",
+          "trapType": "none",
+          "note": "plain headcount"
+        },
+        {
+          "id": "p1-004-f5",
+          "field": "burn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "burn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-004-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Anaya Vermillion departing (finance lead)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Anaya Vermillion, our finance lead, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-004-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Kabir Ashgrove joining as Head of Sales",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Kabir Ashgrove as Head of Sales, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-004-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-005",
+      "facts": [
+        {
+          "id": "p1-005-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 5.4,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 54000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹5.4 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-005-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 95,
+          "unit": "%",
+          "canonical": {
+            "value": 95,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 95% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-005-f3",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 6.5,
+          "unit": "%",
+          "canonical": {
+            "value": 6.5,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 6.5% for the quarter",
+          "trapType": "none",
+          "note": "plain net revenue churn"
+        },
+        {
+          "id": "p1-005-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 19,
+          "unit": "months",
+          "canonical": {
+            "value": 19,
+            "unit": "months"
+          },
+          "quote": "that gives us nineteen months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-005-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 38,
+          "unit": "people",
+          "canonical": {
+            "value": 38,
+            "unit": "count"
+          },
+          "quote": "the team is at about thirty-eight people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-005-f6",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series B planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series B conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-005-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-005-f8",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_departure is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-006",
+      "facts": [
+        {
+          "id": "p1-006-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 4.7,
+          "unit": "USD million",
+          "canonical": {
+            "value": 4700000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $4.7 million",
+          "trapType": "unit-trap",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-006-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 179,
+          "unit": "%",
+          "canonical": {
+            "value": 179,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 179% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-006-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 20,
+          "unit": "months",
+          "canonical": {
+            "value": 20,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at twenty months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-006-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 80,
+          "unit": "people",
+          "canonical": {
+            "value": 80,
+            "unit": "count"
+          },
+          "quote": "the team is at about eighty people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-006-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "net_churn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-006-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Priya Sandhurst joining as Head of Sales",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Priya Sandhurst as Head of Sales, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-006-f7",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series A planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series A conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-006-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-007",
+      "facts": [
+        {
+          "id": "p1-007-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 6.9,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 69000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹6.9 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-007-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 71,
+          "unit": "%",
+          "canonical": {
+            "value": 71,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 71%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-007-f3",
+          "field": "burn",
+          "kind": "metric",
+          "value": 35,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 3500000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹35 lakh a month",
+          "trapType": "unit-trap",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-007-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 12,
+          "unit": "months",
+          "canonical": {
+            "value": 12,
+            "unit": "months"
+          },
+          "quote": "that gives us twelve months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-007-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "headcount is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-007-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Meera Thistlewood departing (engineering lead)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Meera Thistlewood, our engineering lead, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-007-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Vellichor Retail not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Vellichor Retail confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-007-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "fundraise_intent is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-008",
+      "facts": [
+        {
+          "id": "p1-008-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 8,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 80000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹8 crore",
+          "trapType": "stale",
+          "note": "ARR restated later in the call; the later figure is the answer"
+        },
+        {
+          "id": "p1-008-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 171,
+          "unit": "%",
+          "canonical": {
+            "value": 171,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 171% year on year",
+          "trapType": "none",
+          "note": "plain YoY growth"
+        },
+        {
+          "id": "p1-008-f3",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 71,
+          "unit": "people",
+          "canonical": {
+            "value": 71,
+            "unit": "count"
+          },
+          "quote": "the team is at about seventy-one people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-008-f4",
+          "field": "burn",
+          "kind": "metric",
+          "value": 62,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 6200000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹62 lakh a month",
+          "trapType": "none",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-008-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 7.3,
+          "unit": "%",
+          "canonical": {
+            "value": 7.3,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 7.3% for the quarter",
+          "trapType": "distractor",
+          "note": "a logo-churn figure sits nearby; the question asks for revenue churn"
+        },
+        {
+          "id": "p1-008-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-008-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Marrowbone Capital Tech not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Marrowbone Capital Tech confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-008-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series C planned for Q4",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series C conversation in Q4",
+          "trapType": "none",
+          "note": "fundraise intent"
+        }
+      ]
+    },
+    {
+      "id": "p1-009",
+      "facts": [
+        {
+          "id": "p1-009-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 5.7,
+          "unit": "USD million",
+          "canonical": {
+            "value": 5700000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $5.7 million",
+          "trapType": "none",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-009-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 82,
+          "unit": "%",
+          "canonical": {
+            "value": 82,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 82%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-009-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 11,
+          "unit": "months",
+          "canonical": {
+            "value": 11,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at eleven months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-009-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 93,
+          "unit": "people",
+          "canonical": {
+            "value": 93,
+            "unit": "count"
+          },
+          "quote": "we're at 93 people across both offices",
+          "trapType": "none",
+          "note": "plain headcount"
+        },
+        {
+          "id": "p1-009-f5",
+          "field": "burn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "burn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-009-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Rhea Underhill departing (finance lead)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Rhea Underhill, our finance lead, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-009-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Priya Sandhurst joining as Head of Product",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Priya Sandhurst as Head of Product, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-009-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-010",
+      "facts": [
+        {
+          "id": "p1-010-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 8.7,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 87000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹8.7 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-010-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 90,
+          "unit": "%",
+          "canonical": {
+            "value": 90,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 90% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-010-f3",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 3.1,
+          "unit": "%",
+          "canonical": {
+            "value": 3.1,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 3.1% for the quarter",
+          "trapType": "none",
+          "note": "plain net revenue churn"
+        },
+        {
+          "id": "p1-010-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 11,
+          "unit": "months",
+          "canonical": {
+            "value": 11,
+            "unit": "months"
+          },
+          "quote": "that gives us eleven months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-010-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 72,
+          "unit": "people",
+          "canonical": {
+            "value": 72,
+            "unit": "count"
+          },
+          "quote": "the team is at about seventy-two people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-010-f6",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series C planned for Q4",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series C conversation in Q4",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-010-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-010-f8",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_departure is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-011",
+      "facts": [
+        {
+          "id": "p1-011-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 7.4,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 74000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹7.4 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-011-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 50,
+          "unit": "%",
+          "canonical": {
+            "value": 50,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 50% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-011-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 14,
+          "unit": "months",
+          "canonical": {
+            "value": 14,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at fourteen months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-011-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 49,
+          "unit": "people",
+          "canonical": {
+            "value": 49,
+            "unit": "count"
+          },
+          "quote": "the team is at about forty-nine people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-011-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "net_churn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-011-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Anaya Vermillion joining as VP Engineering",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Anaya Vermillion as VP Engineering, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-011-f7",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series B planned for Q4",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series B conversation in Q4",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-011-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-012",
+      "facts": [
+        {
+          "id": "p1-012-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 3.6,
+          "unit": "USD million",
+          "canonical": {
+            "value": 3600000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $3.6 million",
+          "trapType": "unit-trap",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-012-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 58,
+          "unit": "%",
+          "canonical": {
+            "value": 58,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 58%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-012-f3",
+          "field": "burn",
+          "kind": "metric",
+          "value": 421,
+          "unit": "USD thousand",
+          "canonical": {
+            "value": 421000,
+            "unit": "USD"
+          },
+          "quote": "net burn is about $421k a month",
+          "trapType": "unit-trap",
+          "note": "burn in USD thousands"
+        },
+        {
+          "id": "p1-012-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 11,
+          "unit": "months",
+          "canonical": {
+            "value": 11,
+            "unit": "months"
+          },
+          "quote": "that gives us eleven months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-012-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "headcount is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-012-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Meera Thistlewood departing (head of sales)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Meera Thistlewood, our head of sales, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-012-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Pellucid Bio not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Pellucid Bio confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-012-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "fundraise_intent is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-013",
+      "facts": [
+        {
+          "id": "p1-013-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 6.7,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 67000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹6.7 crore",
+          "trapType": "stale",
+          "note": "ARR restated later in the call; the later figure is the answer"
+        },
+        {
+          "id": "p1-013-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 79,
+          "unit": "%",
+          "canonical": {
+            "value": 79,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 79% year on year",
+          "trapType": "none",
+          "note": "plain YoY growth"
+        },
+        {
+          "id": "p1-013-f3",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 58,
+          "unit": "people",
+          "canonical": {
+            "value": 58,
+            "unit": "count"
+          },
+          "quote": "the team is at about fifty-eight people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-013-f4",
+          "field": "burn",
+          "kind": "metric",
+          "value": 47,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 4700000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹47 lakh a month",
+          "trapType": "none",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-013-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 5.3,
+          "unit": "%",
+          "canonical": {
+            "value": 5.3,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 5.3% for the quarter",
+          "trapType": "distractor",
+          "note": "a logo-churn figure sits nearby; the question asks for revenue churn"
+        },
+        {
+          "id": "p1-013-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-013-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Quillstone Systems not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Quillstone Systems confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-013-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series A planned for Q4",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series A conversation in Q4",
+          "trapType": "none",
+          "note": "fundraise intent"
+        }
+      ]
+    },
+    {
+      "id": "p1-014",
+      "facts": [
+        {
+          "id": "p1-014-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 6.4,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 64000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹6.4 crore",
+          "trapType": "none",
+          "note": "plain ARR"
+        },
+        {
+          "id": "p1-014-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 62,
+          "unit": "%",
+          "canonical": {
+            "value": 62,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 62%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-014-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 20,
+          "unit": "months",
+          "canonical": {
+            "value": 20,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at twenty months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-014-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 62,
+          "unit": "people",
+          "canonical": {
+            "value": 62,
+            "unit": "count"
+          },
+          "quote": "we're at 62 people across both offices",
+          "trapType": "none",
+          "note": "plain headcount"
+        },
+        {
+          "id": "p1-014-f5",
+          "field": "burn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "burn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-014-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Kabir Ashgrove departing (head of sales)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Kabir Ashgrove, our head of sales, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-014-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Anaya Vermillion joining as VP Engineering",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Anaya Vermillion as VP Engineering, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-014-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-015",
+      "facts": [
+        {
+          "id": "p1-015-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 7.3,
+          "unit": "USD million",
+          "canonical": {
+            "value": 7300000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $7.3 million",
+          "trapType": "unit-trap",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-015-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 175,
+          "unit": "%",
+          "canonical": {
+            "value": 175,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 175% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-015-f3",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 3.9,
+          "unit": "%",
+          "canonical": {
+            "value": 3.9,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 3.9% for the quarter",
+          "trapType": "none",
+          "note": "plain net revenue churn"
+        },
+        {
+          "id": "p1-015-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 19,
+          "unit": "months",
+          "canonical": {
+            "value": 19,
+            "unit": "months"
+          },
+          "quote": "that gives us nineteen months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-015-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 77,
+          "unit": "people",
+          "canonical": {
+            "value": 77,
+            "unit": "count"
+          },
+          "quote": "the team is at about seventy-seven people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-015-f6",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series A planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series A conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-015-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-015-f8",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_departure is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-016",
+      "facts": [
+        {
+          "id": "p1-016-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 8.1,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 81000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹8.1 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-016-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 46,
+          "unit": "%",
+          "canonical": {
+            "value": 46,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 46% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-016-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 26,
+          "unit": "months",
+          "canonical": {
+            "value": 26,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at twenty-six months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-016-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 24,
+          "unit": "people",
+          "canonical": {
+            "value": 24,
+            "unit": "count"
+          },
+          "quote": "the team is at about twenty-four people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-016-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "net_churn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-016-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Anaya Vermillion joining as Head of Product",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Anaya Vermillion as Head of Product, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-016-f7",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series A planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series A conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-016-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-017",
+      "facts": [
+        {
+          "id": "p1-017-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 4.1,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 41000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹4.1 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-017-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 66,
+          "unit": "%",
+          "canonical": {
+            "value": 66,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 66%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-017-f3",
+          "field": "burn",
+          "kind": "metric",
+          "value": 120,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 12000000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹120 lakh a month",
+          "trapType": "unit-trap",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-017-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 20,
+          "unit": "months",
+          "canonical": {
+            "value": 20,
+            "unit": "months"
+          },
+          "quote": "that gives us twenty months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-017-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "headcount is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-017-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Tobias Rennick departing (head of sales)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Tobias Rennick, our head of sales, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-017-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Harrowgate Freight not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Harrowgate Freight confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-017-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "fundraise_intent is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-018",
+      "facts": [
+        {
+          "id": "p1-018-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 2.4,
+          "unit": "USD million",
+          "canonical": {
+            "value": 2400000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $2.4 million",
+          "trapType": "stale",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-018-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 97,
+          "unit": "%",
+          "canonical": {
+            "value": 97,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 97% year on year",
+          "trapType": "none",
+          "note": "plain YoY growth"
+        },
+        {
+          "id": "p1-018-f3",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 69,
+          "unit": "people",
+          "canonical": {
+            "value": 69,
+            "unit": "count"
+          },
+          "quote": "the team is at about sixty-nine people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-018-f4",
+          "field": "burn",
+          "kind": "metric",
+          "value": 224,
+          "unit": "USD thousand",
+          "canonical": {
+            "value": 224000,
+            "unit": "USD"
+          },
+          "quote": "net burn is about $224k a month",
+          "trapType": "none",
+          "note": "burn in USD thousands"
+        },
+        {
+          "id": "p1-018-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 5.3,
+          "unit": "%",
+          "canonical": {
+            "value": 5.3,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 5.3% for the quarter",
+          "trapType": "distractor",
+          "note": "a logo-churn figure sits nearby; the question asks for revenue churn"
+        },
+        {
+          "id": "p1-018-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-018-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Fenwick Loom not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Fenwick Loom confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-018-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series A planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series A conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        }
+      ]
+    },
+    {
+      "id": "p1-019",
+      "facts": [
+        {
+          "id": "p1-019-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 5.8,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 58000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹5.8 crore",
+          "trapType": "none",
+          "note": "plain ARR"
+        },
+        {
+          "id": "p1-019-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 77,
+          "unit": "%",
+          "canonical": {
+            "value": 77,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 77%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-019-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 16,
+          "unit": "months",
+          "canonical": {
+            "value": 16,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at sixteen months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-019-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 39,
+          "unit": "people",
+          "canonical": {
+            "value": 39,
+            "unit": "count"
+          },
+          "quote": "we're at 39 people across both offices",
+          "trapType": "none",
+          "note": "plain headcount"
+        },
+        {
+          "id": "p1-019-f5",
+          "field": "burn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "burn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-019-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Meera Thistlewood departing (engineering lead)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Meera Thistlewood, our engineering lead, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-019-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Arjun Pellworth joining as VP Finance",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Arjun Pellworth as VP Finance, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-019-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-020",
+      "facts": [
+        {
+          "id": "p1-020-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 6.1,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 61000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹6.1 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-020-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 69,
+          "unit": "%",
+          "canonical": {
+            "value": 69,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 69% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-020-f3",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 8.3,
+          "unit": "%",
+          "canonical": {
+            "value": 8.3,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 8.3% for the quarter",
+          "trapType": "none",
+          "note": "plain net revenue churn"
+        },
+        {
+          "id": "p1-020-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 24,
+          "unit": "months",
+          "canonical": {
+            "value": 24,
+            "unit": "months"
+          },
+          "quote": "that gives us twenty-four months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-020-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 24,
+          "unit": "people",
+          "canonical": {
+            "value": 24,
+            "unit": "count"
+          },
+          "quote": "the team is at about twenty-four people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-020-f6",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series A planned for Q3",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series A conversation in Q3",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-020-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-020-f8",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_departure is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-021",
+      "facts": [
+        {
+          "id": "p1-021-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 5.5,
+          "unit": "USD million",
+          "canonical": {
+            "value": 5500000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $5.5 million",
+          "trapType": "unit-trap",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-021-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 169,
+          "unit": "%",
+          "canonical": {
+            "value": 169,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 169% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-021-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 24,
+          "unit": "months",
+          "canonical": {
+            "value": 24,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at twenty-four months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-021-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 25,
+          "unit": "people",
+          "canonical": {
+            "value": 25,
+            "unit": "count"
+          },
+          "quote": "the team is at about twenty-five people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-021-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "net_churn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-021-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Meera Thistlewood joining as VP Engineering",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Meera Thistlewood as VP Engineering, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-021-f7",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series B planned for Q2",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series B conversation in Q2",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-021-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-022",
+      "facts": [
+        {
+          "id": "p1-022-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 8.4,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 84000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹8.4 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-022-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 82,
+          "unit": "%",
+          "canonical": {
+            "value": 82,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 82%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-022-f3",
+          "field": "burn",
+          "kind": "metric",
+          "value": 108,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 10800000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹108 lakh a month",
+          "trapType": "unit-trap",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-022-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 21,
+          "unit": "months",
+          "canonical": {
+            "value": 21,
+            "unit": "months"
+          },
+          "quote": "that gives us twenty-one months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-022-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "headcount is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-022-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Nina Farrowgate departing (head of sales)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Nina Farrowgate, our head of sales, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-022-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Zephyrwick Analytics not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Zephyrwick Analytics confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-022-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "fundraise_intent is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-023",
+      "facts": [
+        {
+          "id": "p1-023-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 6.7,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 67000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹6.7 crore",
+          "trapType": "stale",
+          "note": "ARR restated later in the call; the later figure is the answer"
+        },
+        {
+          "id": "p1-023-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 101,
+          "unit": "%",
+          "canonical": {
+            "value": 101,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 101% year on year",
+          "trapType": "none",
+          "note": "plain YoY growth"
+        },
+        {
+          "id": "p1-023-f3",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 26,
+          "unit": "people",
+          "canonical": {
+            "value": 26,
+            "unit": "count"
+          },
+          "quote": "the team is at about twenty-six people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-023-f4",
+          "field": "burn",
+          "kind": "metric",
+          "value": 99,
+          "unit": "INR lakh",
+          "canonical": {
+            "value": 9900000,
+            "unit": "INR"
+          },
+          "quote": "net burn is running at ₹99 lakh a month",
+          "trapType": "none",
+          "note": "burn in lakh per month"
+        },
+        {
+          "id": "p1-023-f5",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 6.6,
+          "unit": "%",
+          "canonical": {
+            "value": 6.6,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 6.6% for the quarter",
+          "trapType": "distractor",
+          "note": "a logo-churn figure sits nearby; the question asks for revenue churn"
+        },
+        {
+          "id": "p1-023-f6",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-023-f7",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": "Alderbrook Grid not renewing",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Alderbrook Grid confirmed they will not renew",
+          "trapType": "none",
+          "note": "customer loss"
+        },
+        {
+          "id": "p1-023-f8",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series C planned for Q2",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series C conversation in Q2",
+          "trapType": "none",
+          "note": "fundraise intent"
+        }
+      ]
+    },
+    {
+      "id": "p1-024",
+      "facts": [
+        {
+          "id": "p1-024-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 4.4,
+          "unit": "USD million",
+          "canonical": {
+            "value": 4400000,
+            "unit": "USD"
+          },
+          "quote": "ARR finished the quarter at $4.4 million",
+          "trapType": "none",
+          "note": "ARR in USD"
+        },
+        {
+          "id": "p1-024-f2",
+          "field": "gross_margin",
+          "kind": "metric",
+          "value": 78,
+          "unit": "%",
+          "canonical": {
+            "value": 78,
+            "unit": "pct"
+          },
+          "quote": "gross margin came in at 78%",
+          "trapType": "distractor",
+          "note": "a percentage-point movement sits nearby; percent and pp are different units"
+        },
+        {
+          "id": "p1-024-f3",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 18,
+          "unit": "months",
+          "canonical": {
+            "value": 18,
+            "unit": "months"
+          },
+          "quote": "after the bridge we're at eighteen months",
+          "trapType": "stale",
+          "note": "an earlier runway figure is superseded in the same sentence"
+        },
+        {
+          "id": "p1-024-f4",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 34,
+          "unit": "people",
+          "canonical": {
+            "value": 34,
+            "unit": "count"
+          },
+          "quote": "we're at 34 people across both offices",
+          "trapType": "none",
+          "note": "plain headcount"
+        },
+        {
+          "id": "p1-024-f5",
+          "field": "burn",
+          "kind": "metric",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "burn is never stated — correct answer is null"
+        },
+        {
+          "id": "p1-024-f6",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": "Dev Castellan departing (head of sales)",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "Dev Castellan, our head of sales, is leaving at the end of the quarter",
+          "trapType": "none",
+          "note": "key departure"
+        },
+        {
+          "id": "p1-024-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": "Vikram Ollandry joining as VP Engineering",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we've signed Vikram Ollandry as VP Engineering, starting next month",
+          "trapType": "none",
+          "note": "key hire"
+        },
+        {
+          "id": "p1-024-f8",
+          "field": "customer_loss",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "customer_loss is never mentioned — correct answer is null"
+        }
+      ]
+    },
+    {
+      "id": "p1-025",
+      "facts": [
+        {
+          "id": "p1-025-f1",
+          "field": "arr",
+          "kind": "metric",
+          "value": 5.2,
+          "unit": "INR crore",
+          "canonical": {
+            "value": 52000000,
+            "unit": "INR"
+          },
+          "quote": "we closed the quarter at an ARR of ₹5.2 crore",
+          "trapType": "unit-trap",
+          "note": "ARR in crore, not dollars"
+        },
+        {
+          "id": "p1-025-f2",
+          "field": "growth_yoy",
+          "kind": "metric",
+          "value": 104,
+          "unit": "%",
+          "canonical": {
+            "value": 104,
+            "unit": "pct"
+          },
+          "quote": "revenue is up 104% year on year",
+          "trapType": "distractor",
+          "note": "a month-on-month figure sits nearby; the question asks for year on year"
+        },
+        {
+          "id": "p1-025-f3",
+          "field": "net_churn",
+          "kind": "metric",
+          "value": 4.7,
+          "unit": "%",
+          "canonical": {
+            "value": 4.7,
+            "unit": "pct"
+          },
+          "quote": "net revenue churn was 4.7% for the quarter",
+          "trapType": "none",
+          "note": "plain net revenue churn"
+        },
+        {
+          "id": "p1-025-f4",
+          "field": "runway_months",
+          "kind": "metric",
+          "value": 21,
+          "unit": "months",
+          "canonical": {
+            "value": 21,
+            "unit": "months"
+          },
+          "quote": "that gives us twenty-one months of runway",
+          "trapType": "none",
+          "note": "plain runway"
+        },
+        {
+          "id": "p1-025-f5",
+          "field": "headcount",
+          "kind": "metric",
+          "value": 65,
+          "unit": "people",
+          "canonical": {
+            "value": 65,
+            "unit": "count"
+          },
+          "quote": "the team is at about sixty-five people now",
+          "trapType": "spelled-number",
+          "note": "headcount spelled out"
+        },
+        {
+          "id": "p1-025-f6",
+          "field": "fundraise_intent",
+          "kind": "signal",
+          "value": "Series B planned for Q4",
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": "we want to start the Series B conversation in Q4",
+          "trapType": "none",
+          "note": "fundraise intent"
+        },
+        {
+          "id": "p1-025-f7",
+          "field": "key_hire",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_hire is never mentioned — correct answer is null"
+        },
+        {
+          "id": "p1-025-f8",
+          "field": "key_departure",
+          "kind": "signal",
+          "value": null,
+          "unit": null,
+          "canonical": {
+            "value": null,
+            "unit": null
+          },
+          "quote": null,
+          "trapType": "absent",
+          "note": "key_departure is never mentioned — correct answer is null"
+        }
+      ]
+    }
+  ]
+}

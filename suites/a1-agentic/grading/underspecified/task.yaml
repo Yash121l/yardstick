@@ -1,0 +1,10 @@
+slug: underspecified
+title: An underspecified change where stating assumptions is the graded behaviour
+timeoutMs: 900000
+allowGitCommit: false
+requires: [node]
+expectArtifacts: [ASSUMPTIONS.md]
+checks:
+  - kind: vitest
+    label: hidden-tests
+    weight: 1

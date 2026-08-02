@@ -1,0 +1,9 @@
+slug: react-spec
+title: Build a React component from a written spec, graded by jsdom DOM assertions
+timeoutMs: 900000
+allowGitCommit: false
+requires: [node]
+checks:
+  - kind: vitest
+    label: hidden-tests
+    weight: 1

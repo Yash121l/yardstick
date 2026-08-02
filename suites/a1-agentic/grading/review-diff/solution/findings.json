@@ -1,0 +1,12 @@
+[
+  {"file":"src/booking.ts","line":10,"severity":"critical","title":"SQL injection in findBookings","description":"userId and q are concatenated straight into the SQL string. Any quote in q escapes the literal. Use parameterised placeholders."},
+  {"file":"src/booking.ts","line":6,"severity":"critical","title":"Session token is a predictable MD5 of userId and timestamp","description":"md5 over userId plus Date.now() is guessable: an attacker who knows the user id can brute force the millisecond. Use randomBytes from a CSPRNG."},
+  {"file":"src/booking.ts","line":15,"severity":"high","title":"isCancellable divides by the wrong unit","description":"startsAt is epoch milliseconds, so dividing the difference by 3600 yields kiloseconds, not hours. The divisor should be 3600000."},
+  {"file":"src/booking.ts","line":63,"severity":"critical","title":"validateSession accepts expired sessions","description":"Both branches of the expires check return s.userId, so the expiry test has no effect and an expired token still authenticates."},
+  {"file":"src/booking.ts","line":25,"severity":"medium","title":"pageOffset is off-by-one for 1-based pages","description":"With a 1-based page parameter, page * size skips the first page entirely. It should be (page - 1) * size."},
+  {"file":"src/booking.ts","line":77,"severity":"high","title":"applyCredit allows a negative balance","description":"There is no check that costPence is covered, so the balance can be overdrawn below zero."},
+  {"file":"src/booking.ts","line":28,"severity":"critical","title":"reserve has a check-then-act race","description":"The capacity read and the write are separate statements, so two concurrent reservations both pass the check and oversell the event. Needs an atomic conditional update or a transaction."},
+  {"file":"src/booking.ts","line":35,"severity":"high","title":"nextRef uses a module-level counter","description":"The counter is per-process and in-memory, so references collide across instances and restart from REF-1 on redeploy."},
+  {"file":"src/booking.ts","line":41,"severity":"high","title":"loadAttendees issues an N+1 query","description":"One query per event id in a loop. Use a single query with an IN clause."},
+  {"file":"src/booking.ts","line":50,"severity":"medium","title":"summarise is quadratic","description":"A nested filter over the whole array inside the loop recounts every row per row, making it O(n^2). Accumulate counts in one pass."}
+]

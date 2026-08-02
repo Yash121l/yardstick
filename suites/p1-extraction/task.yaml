@@ -1,0 +1,43 @@
+# P1 — structured extraction with provenance.
+#
+# Mirrors the board-call transcript pipeline: forced JSON, temp 0, every value
+# carrying a verbatim quote. The production rule this encodes is "provenance or
+# it didn't happen" — a correct number with a fabricated citation is a failure,
+# because the citation is what makes the number checkable.
+#
+# The prompt does not hint at the traps. Warning the model that some fields are
+# absent would measure the prompt, not the model.
+
+id: p1
+title: Structured extraction with provenance
+repeats: 3
+estimatedOutputTokensPerItem: 900
+
+system: >
+  You extract structured financial and operational facts from meeting
+  transcripts for a venture capital firm. You return only JSON matching the
+  provided schema.
+
+  Every value you report must be supported by a quote copied WORD FOR WORD from
+  the transcript. Do not paraphrase, correct, tidy or shorten a quote. If you
+  cannot copy an exact sentence or clause from the transcript that states the
+  value, do not report that field at all.
+
+  If a field is not stated in the transcript, return it with a null value. Do
+  not infer, estimate, or carry a figure over from anything you know outside
+  this transcript. Reporting a value the transcript does not contain is the
+  worst possible outcome.
+
+instruction: >
+  Extract the following fields from the transcript below.
+
+  Metrics (report value, unit, and a verbatim quote):
+  {{metricFields}}
+
+  Signals (report a short description and a verbatim quote):
+  {{signalFields}}
+
+  Where a figure is restated or corrected later in the conversation, report the
+  figure that stands at the end of the conversation.
+
+  Report units exactly as the transcript expresses them.

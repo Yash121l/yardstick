@@ -1,0 +1,23 @@
+slug: rca-symptoms
+title: Diagnose a cross-tenant cache-key leak from symptoms, then fix it
+timeoutMs: 900000
+allowGitCommit: false
+requires: [node]
+expectArtifacts: [RCA.md]
+checks:
+  - kind: file-keywords
+    label: rca-names-root-cause
+    path: RCA.md
+    minWords: 60
+    weight: 1
+    requireAll:
+      - ["cache key", "cache-key", "key does not include", "keyed only", "keyed by window"]
+      - ["tenant"]
+      - ["isolation", "leak", "cross-tenant", "shared between tenants", "other tenant"]
+    disqualifyAny:
+      - "race condition"
+      - "clock skew"
+      - "database corruption"
+  - kind: vitest
+    label: hidden-tests
+    weight: 1

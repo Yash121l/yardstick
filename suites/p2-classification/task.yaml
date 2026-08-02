@@ -1,0 +1,84 @@
+# P2 — high-volume classification.
+#
+# Prompts live here so they can be edited and diffed without touching code.
+# The JSON schemas live in src/suites/p2.ts because the grader depends on them
+# as a contract — a schema and its grader must not be able to drift apart.
+#
+# Mirrors: funding-news triage, meeting-type routing, signal/noise against a
+# watchlist, and thesis fit. Answers the question "what is the cheapest model
+# I can trust for triage".
+
+id: p2
+title: Classification at volume
+repeats: 2
+estimatedOutputTokensPerItem: 40
+
+# Kept deliberately terse and neutral. The traps live in the fixtures, not in
+# prompt trickery — a prompt that hints at the traps would measure the prompt.
+system: >
+  You are a precise classification service for a venture capital firm. You
+  return only JSON matching the provided schema. You never guess: when a field
+  is not determinable from the text, use null where the schema allows it.
+
+labelSets:
+  funding:
+    instruction: >
+      Classify this funding-news snippet.
+
+      is_funding_event: true only if the snippet reports a funding round that
+      has actually happened or closed. Rumours, talks, plans, partnerships,
+      hires and conference appearances are not funding events.
+
+      round_stage: the stage of that round, or null if there is no event or the
+      stage is not stated. Never infer a stage that the text does not give.
+
+      is_india: true only if the company that raised is headquartered or
+      primarily operates in India. Judge the company, not the currency, the
+      investor, or any other company mentioned in passing.
+
+  meeting:
+    instruction: >
+      Classify this calendar entry into exactly one type.
+
+      board-call: a formal board or shareholder meeting of a company, with
+      board governance content such as resolutions, approvals or the board pack.
+
+      founder-catchup: an informal check-in with the founder of an existing
+      portfolio company.
+
+      internal: attended only by people from our own firm, including preparation
+      for or debriefs about a board meeting.
+
+      external-other: involves someone outside our firm who is not a portfolio
+      founder, such as intros, vendors, LPs, references and auditors.
+
+      Judge the notes over the title where they disagree.
+
+  signal:
+    instruction: >
+      A message is signal if it reports something materially new about a company
+      on the watchlist below: funding, runway, senior departures, customer wins
+      or losses, outages, acquisition interest, or missing plan.
+
+      It is noise if it is about any company not on the watchlist, or if it is
+      about a watchlist company but reports nothing material.
+
+      Company names that merely resemble a watchlist name are not on the
+      watchlist.
+
+      WATCHLIST:
+      {{watchlist}}
+
+  thesis:
+    instruction: >
+      Classify this company one-liner against the investment thesis below.
+
+      in-thesis: matches the thesis.
+      adjacent: right general shape but off on geography, stage, or business
+      model.
+      anti-thesis: falls into a category the thesis explicitly excludes.
+
+      Judge what the company actually is and sells, not the vocabulary it uses.
+
+      THESIS:
+      {{thesis}}

@@ -1,0 +1,15 @@
+slug: py-idempotent
+title: Make a CSV loader safe to re-run (upsert semantics)
+timeoutMs: 600000
+allowGitCommit: false
+requires: [node, python3]
+checks:
+  - kind: idempotency
+    label: rerun-is-a-no-op
+    command: ["python3", "loader.py"]
+    stateCommand: ["python3", "count.py"]
+    weight: 2
+  - kind: command
+    label: loader-exits-clean
+    command: ["python3", "loader.py"]
+    weight: 1

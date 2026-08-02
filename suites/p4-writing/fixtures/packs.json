@@ -1,0 +1,1085 @@
+{
+  "seed": 20260805,
+  "packs": [
+    {
+      "id": "p4-001",
+      "company": "Brightloom Kirana",
+      "sector": "quick-commerce",
+      "city": "Bengaluru",
+      "text": "# Pack — Brightloom Kirana\n\nBrightloom Kirana is a quick-commerce company based in Bengaluru. 10-minute grocery delivery for tier-2 cities.\n\n## Metrics (latest quarter)\n- ARR: ₹8.8 crore\n- Growth, year on year: 112%\n- Net burn: ₹45 lakh per month\n- Runway: 23 months\n- Headcount: 131\n- Net revenue retention: 100%\n- Gross margin: 68%\n- Paying customers: 283\n\n## Deal\n- Raising: $3 million\n- Ownership on offer: 12%\n\n## Transcript excerpt — board call\nANAYA VERMILLION: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nKABIR ASHGROVE: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nANAYA VERMILLION: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nANAYA VERMILLION: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Brightloom Kirana signed a reseller agreement with a systems integrator covering the healthcare segment.\n2. Vikram Ollandry, who led revenue at Brightloom Kirana, has left the company.\n3. Brightloom Kirana moved from seat-based to usage-based pricing across its self-serve tier.\n\n## Previously reported to the investment committee\n- Brightloom Kirana signed a reseller agreement with a systems integrator covering the healthcare segment.\n- Brightloom Kirana closed its seed round led by Greyloft Ventures.\n- Brightloom Kirana appointed Kabir Ashgrove as Head of Data.",
+      "news": [
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Brightloom Kirana signed a reseller agreement with a systems integrator covering the healthcare segment.",
+          "previouslyReported": true
+        },
+        {
+          "key": "senior departure",
+          "detect": [
+            "Ollandry"
+          ],
+          "text": "Vikram Ollandry, who led revenue at Brightloom Kirana, has left the company.",
+          "previouslyReported": false
+        },
+        {
+          "key": "pricing change",
+          "detect": [
+            "usage-based"
+          ],
+          "text": "Brightloom Kirana moved from seat-based to usage-based pricing across its self-serve tier.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Brightloom Kirana signed a reseller agreement with a systems integrator covering the healthcare segment.",
+        "Brightloom Kirana closed its seed round led by Greyloft Ventures.",
+        "Brightloom Kirana appointed Kabir Ashgrove as Head of Data."
+      ],
+      "numbers": [
+        {
+          "raw": "₹8.8 crore",
+          "canonicalValue": 88000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "112%",
+          "canonicalValue": 112,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹45 lakh",
+          "canonicalValue": 4500000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "23 months",
+          "canonicalValue": 23,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "131",
+          "canonicalValue": 131,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "100%",
+          "canonicalValue": 100,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "68%",
+          "canonicalValue": 68,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "283",
+          "canonicalValue": 283,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$3 million",
+          "canonicalValue": 3000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "12%",
+          "canonicalValue": 12,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-002",
+      "company": "Tiffinwallah Systems",
+      "sector": "logistics",
+      "city": "Bengaluru",
+      "text": "# Pack — Tiffinwallah Systems\n\nTiffinwallah Systems is a logistics company based in Bengaluru. route optimisation for last-mile meal delivery fleets.\n\n## Metrics (latest quarter)\n- ARR: ₹7.1 crore\n- Growth, year on year: 187%\n- Net burn: ₹110 lakh per month\n- Runway: 12 months\n- Headcount: 39\n- Net revenue retention: 131%\n- Gross margin: 65%\n- Paying customers: 235\n\n## Deal\n- Raising: $18 million\n- Ownership on offer: 13%\n\n## Transcript excerpt — board call\nDEV CASTELLAN: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nMEERA THISTLEWOOD: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nDEV CASTELLAN: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nDEV CASTELLAN: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Tiffinwallah Systems completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.\n2. Tiffinwallah Systems has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.\n3. Rhea Underhill, who led revenue at Tiffinwallah Systems, has left the company.\n\n## Previously reported to the investment committee\n- Tiffinwallah Systems completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.\n- Tiffinwallah Systems closed its seed round led by Thornfield Partners.\n- Tiffinwallah Systems appointed Meera Thistlewood as COO.",
+      "news": [
+        {
+          "key": "certification",
+          "detect": [
+            "SOC 2"
+          ],
+          "text": "Tiffinwallah Systems completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.",
+          "previouslyReported": true
+        },
+        {
+          "key": "hiring freeze",
+          "detect": [
+            "non-engineering"
+          ],
+          "text": "Tiffinwallah Systems has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.",
+          "previouslyReported": false
+        },
+        {
+          "key": "senior departure",
+          "detect": [
+            "Underhill"
+          ],
+          "text": "Rhea Underhill, who led revenue at Tiffinwallah Systems, has left the company.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Tiffinwallah Systems completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.",
+        "Tiffinwallah Systems closed its seed round led by Thornfield Partners.",
+        "Tiffinwallah Systems appointed Meera Thistlewood as COO."
+      ],
+      "numbers": [
+        {
+          "raw": "₹7.1 crore",
+          "canonicalValue": 71000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "187%",
+          "canonicalValue": 187,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹110 lakh",
+          "canonicalValue": 11000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "12 months",
+          "canonicalValue": 12,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "39",
+          "canonicalValue": 39,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "131%",
+          "canonicalValue": 131,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "65%",
+          "canonicalValue": 65,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "235",
+          "canonicalValue": 235,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$18 million",
+          "canonicalValue": 18000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "13%",
+          "canonicalValue": 13,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-003",
+      "company": "Banyan Ledger",
+      "sector": "fintech",
+      "city": "Chennai",
+      "text": "# Pack — Banyan Ledger\n\nBanyan Ledger is a fintech company based in Chennai. reconciliation software for small NBFCs.\n\n## Metrics (latest quarter)\n- ARR: ₹6.6 crore\n- Growth, year on year: 187%\n- Net burn: ₹49 lakh per month\n- Runway: 31 months\n- Headcount: 83\n- Net revenue retention: 106%\n- Gross margin: 78%\n- Paying customers: 208\n\n## Deal\n- Raising: $14 million\n- Ownership on offer: 14%\n\n## Transcript excerpt — board call\nRHEA UNDERHILL: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nARJUN PELLWORTH: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nRHEA UNDERHILL: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nRHEA UNDERHILL: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Banyan Ledger signed a reseller agreement with a systems integrator covering the public sector segment.\n2. Banyan Ledger has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.\n3. Banyan Ledger opened a second office in Chennai to serve customers outside its home market.\n\n## Previously reported to the investment committee\n- Banyan Ledger signed a reseller agreement with a systems integrator covering the public sector segment.\n- Banyan Ledger closed its seed round led by Sable & Pike.\n- Banyan Ledger appointed Arjun Pellworth as Head of Data.",
+      "news": [
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Banyan Ledger signed a reseller agreement with a systems integrator covering the public sector segment.",
+          "previouslyReported": true
+        },
+        {
+          "key": "hiring freeze",
+          "detect": [
+            "non-engineering"
+          ],
+          "text": "Banyan Ledger has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.",
+          "previouslyReported": false
+        },
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Banyan Ledger opened a second office in Chennai to serve customers outside its home market.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Banyan Ledger signed a reseller agreement with a systems integrator covering the public sector segment.",
+        "Banyan Ledger closed its seed round led by Sable & Pike.",
+        "Banyan Ledger appointed Arjun Pellworth as Head of Data."
+      ],
+      "numbers": [
+        {
+          "raw": "₹6.6 crore",
+          "canonicalValue": 66000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "187%",
+          "canonicalValue": 187,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹49 lakh",
+          "canonicalValue": 4900000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "31 months",
+          "canonicalValue": 31,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "83",
+          "canonicalValue": 83,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "106%",
+          "canonicalValue": 106,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "78%",
+          "canonicalValue": 78,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "208",
+          "canonicalValue": 208,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$14 million",
+          "canonicalValue": 14000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "14%",
+          "canonicalValue": 14,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-004",
+      "company": "Monsoon Metrics",
+      "sector": "devtools",
+      "city": "Pune",
+      "text": "# Pack — Monsoon Metrics\n\nMonsoon Metrics is a devtools company based in Pune. observability tuned for low-bandwidth deployments.\n\n## Metrics (latest quarter)\n- ARR: ₹7.9 crore\n- Growth, year on year: 78%\n- Net burn: ₹120 lakh per month\n- Runway: 14 months\n- Headcount: 104\n- Net revenue retention: 137%\n- Gross margin: 77%\n- Paying customers: 31\n\n## Deal\n- Raising: $3 million\n- Ownership on offer: 16%\n\n## Transcript excerpt — board call\nKABIR ASHGROVE: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nNINA FARROWGATE: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nKABIR ASHGROVE: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nKABIR ASHGROVE: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. A direct competitor to Monsoon Metrics announced a large growth round led by Pallavi Bridge Capital.\n2. Monsoon Metrics completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.\n3. Monsoon Metrics opened a second office in Pune to serve customers outside its home market.\n\n## Previously reported to the investment committee\n- A direct competitor to Monsoon Metrics announced a large growth round led by Pallavi Bridge Capital.\n- Monsoon Metrics closed its seed round led by Sable & Pike.\n- Monsoon Metrics appointed Nina Farrowgate as VP Product.",
+      "news": [
+        {
+          "key": "competitor raise",
+          "detect": [
+            "competitor"
+          ],
+          "text": "A direct competitor to Monsoon Metrics announced a large growth round led by Pallavi Bridge Capital.",
+          "previouslyReported": true
+        },
+        {
+          "key": "certification",
+          "detect": [
+            "SOC 2"
+          ],
+          "text": "Monsoon Metrics completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.",
+          "previouslyReported": false
+        },
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Monsoon Metrics opened a second office in Pune to serve customers outside its home market.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "A direct competitor to Monsoon Metrics announced a large growth round led by Pallavi Bridge Capital.",
+        "Monsoon Metrics closed its seed round led by Sable & Pike.",
+        "Monsoon Metrics appointed Nina Farrowgate as VP Product."
+      ],
+      "numbers": [
+        {
+          "raw": "₹7.9 crore",
+          "canonicalValue": 79000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "78%",
+          "canonicalValue": 78,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹120 lakh",
+          "canonicalValue": 12000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "14 months",
+          "canonicalValue": 14,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "104",
+          "canonicalValue": 104,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "137%",
+          "canonicalValue": 137,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "77%",
+          "canonicalValue": 77,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "31",
+          "canonicalValue": 31,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$3 million",
+          "canonicalValue": 3000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "16%",
+          "canonicalValue": 16,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-005",
+      "company": "Peacock Payroll",
+      "sector": "hr-tech",
+      "city": "Pune",
+      "text": "# Pack — Peacock Payroll\n\nPeacock Payroll is a hr-tech company based in Pune. payroll and compliance for firms under 200 staff.\n\n## Metrics (latest quarter)\n- ARR: ₹6.1 crore\n- Growth, year on year: 68%\n- Net burn: ₹29 lakh per month\n- Runway: 20 months\n- Headcount: 137\n- Net revenue retention: 122%\n- Gross margin: 78%\n- Paying customers: 142\n\n## Deal\n- Raising: $15 million\n- Ownership on offer: 13%\n\n## Transcript excerpt — board call\nMEERA THISTLEWOOD: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nVIKRAM OLLANDRY: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nMEERA THISTLEWOOD: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nMEERA THISTLEWOOD: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Peacock Payroll suffered a multi-hour outage that affected its largest enterprise accounts.\n2. Peacock Payroll signed a reseller agreement with a systems integrator covering the healthcare segment.\n3. Peacock Payroll opened a second office in Gurugram to serve customers outside its home market.\n\n## Previously reported to the investment committee\n- Peacock Payroll suffered a multi-hour outage that affected its largest enterprise accounts.\n- Peacock Payroll closed its seed round led by Alcott Ridge Capital.\n- Peacock Payroll appointed Vikram Ollandry as VP Product.",
+      "news": [
+        {
+          "key": "platform outage",
+          "detect": [
+            "outage"
+          ],
+          "text": "Peacock Payroll suffered a multi-hour outage that affected its largest enterprise accounts.",
+          "previouslyReported": true
+        },
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Peacock Payroll signed a reseller agreement with a systems integrator covering the healthcare segment.",
+          "previouslyReported": false
+        },
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Peacock Payroll opened a second office in Gurugram to serve customers outside its home market.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Peacock Payroll suffered a multi-hour outage that affected its largest enterprise accounts.",
+        "Peacock Payroll closed its seed round led by Alcott Ridge Capital.",
+        "Peacock Payroll appointed Vikram Ollandry as VP Product."
+      ],
+      "numbers": [
+        {
+          "raw": "₹6.1 crore",
+          "canonicalValue": 61000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "68%",
+          "canonicalValue": 68,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹29 lakh",
+          "canonicalValue": 2900000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "20 months",
+          "canonicalValue": 20,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "137",
+          "canonicalValue": 137,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "122%",
+          "canonicalValue": 122,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "78%",
+          "canonicalValue": 78,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "142",
+          "canonicalValue": 142,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$15 million",
+          "canonicalValue": 15000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "13%",
+          "canonicalValue": 13,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-006",
+      "company": "Rickshaw Robotics",
+      "sector": "hardware",
+      "city": "Bengaluru",
+      "text": "# Pack — Rickshaw Robotics\n\nRickshaw Robotics is a hardware company based in Bengaluru. retrofit autonomy kits for three-wheeled cargo vehicles.\n\n## Metrics (latest quarter)\n- ARR: ₹7.6 crore\n- Growth, year on year: 99%\n- Net burn: ₹118 lakh per month\n- Runway: 22 months\n- Headcount: 29\n- Net revenue retention: 129%\n- Gross margin: 66%\n- Paying customers: 93\n\n## Deal\n- Raising: $4 million\n- Ownership on offer: 16%\n\n## Transcript excerpt — board call\nARJUN PELLWORTH: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nPRIYA SANDHURST: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nARJUN PELLWORTH: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nARJUN PELLWORTH: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Rickshaw Robotics signed a reseller agreement with a systems integrator covering the public sector segment.\n2. Rickshaw Robotics suffered a multi-hour outage that affected its largest enterprise accounts.\n3. Rickshaw Robotics moved from seat-based to usage-based pricing across its self-serve tier.\n\n## Previously reported to the investment committee\n- Rickshaw Robotics signed a reseller agreement with a systems integrator covering the public sector segment.\n- Rickshaw Robotics closed its seed round led by Thornfield Partners.\n- Rickshaw Robotics appointed Priya Sandhurst as Head of Data.",
+      "news": [
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Rickshaw Robotics signed a reseller agreement with a systems integrator covering the public sector segment.",
+          "previouslyReported": true
+        },
+        {
+          "key": "platform outage",
+          "detect": [
+            "outage"
+          ],
+          "text": "Rickshaw Robotics suffered a multi-hour outage that affected its largest enterprise accounts.",
+          "previouslyReported": false
+        },
+        {
+          "key": "pricing change",
+          "detect": [
+            "usage-based"
+          ],
+          "text": "Rickshaw Robotics moved from seat-based to usage-based pricing across its self-serve tier.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Rickshaw Robotics signed a reseller agreement with a systems integrator covering the public sector segment.",
+        "Rickshaw Robotics closed its seed round led by Thornfield Partners.",
+        "Rickshaw Robotics appointed Priya Sandhurst as Head of Data."
+      ],
+      "numbers": [
+        {
+          "raw": "₹7.6 crore",
+          "canonicalValue": 76000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "99%",
+          "canonicalValue": 99,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹118 lakh",
+          "canonicalValue": 11800000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "22 months",
+          "canonicalValue": 22,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "29",
+          "canonicalValue": 29,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "129%",
+          "canonicalValue": 129,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "66%",
+          "canonicalValue": 66,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "93",
+          "canonicalValue": 93,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$4 million",
+          "canonicalValue": 4000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "16%",
+          "canonicalValue": 16,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-007",
+      "company": "Kolam Health",
+      "sector": "healthtech",
+      "city": "Pune",
+      "text": "# Pack — Kolam Health\n\nKolam Health is a healthtech company based in Pune. teleconsult scheduling for multi-clinic chains.\n\n## Metrics (latest quarter)\n- ARR: ₹9.3 crore\n- Growth, year on year: 158%\n- Net burn: ₹113 lakh per month\n- Runway: 28 months\n- Headcount: 20\n- Net revenue retention: 96%\n- Gross margin: 64%\n- Paying customers: 239\n\n## Deal\n- Raising: $18 million\n- Ownership on offer: 8%\n\n## Transcript excerpt — board call\nNINA FARROWGATE: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nTOBIAS RENNICK: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nNINA FARROWGATE: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nNINA FARROWGATE: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Kolam Health signed a reseller agreement with a systems integrator covering the healthcare segment.\n2. Kolam Health opened a second office in Indore to serve customers outside its home market.\n3. A direct competitor to Kolam Health announced a large growth round led by Pallavi Bridge Capital.\n\n## Previously reported to the investment committee\n- Kolam Health signed a reseller agreement with a systems integrator covering the healthcare segment.\n- Kolam Health closed its seed round led by Pallavi Bridge Capital.\n- Kolam Health appointed Tobias Rennick as COO.",
+      "news": [
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Kolam Health signed a reseller agreement with a systems integrator covering the healthcare segment.",
+          "previouslyReported": true
+        },
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Kolam Health opened a second office in Indore to serve customers outside its home market.",
+          "previouslyReported": false
+        },
+        {
+          "key": "competitor raise",
+          "detect": [
+            "competitor"
+          ],
+          "text": "A direct competitor to Kolam Health announced a large growth round led by Pallavi Bridge Capital.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Kolam Health signed a reseller agreement with a systems integrator covering the healthcare segment.",
+        "Kolam Health closed its seed round led by Pallavi Bridge Capital.",
+        "Kolam Health appointed Tobias Rennick as COO."
+      ],
+      "numbers": [
+        {
+          "raw": "₹9.3 crore",
+          "canonicalValue": 93000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "158%",
+          "canonicalValue": 158,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹113 lakh",
+          "canonicalValue": 11300000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "28 months",
+          "canonicalValue": 28,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "20",
+          "canonicalValue": 20,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "96%",
+          "canonicalValue": 96,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "64%",
+          "canonicalValue": 64,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "239",
+          "canonicalValue": 239,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$18 million",
+          "canonicalValue": 18000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "8%",
+          "canonicalValue": 8,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-008",
+      "company": "Dhaba Cloud",
+      "sector": "saas",
+      "city": "Chennai",
+      "text": "# Pack — Dhaba Cloud\n\nDhaba Cloud is a saas company based in Chennai. point-of-sale and inventory for roadside restaurant chains.\n\n## Metrics (latest quarter)\n- ARR: ₹4.7 crore\n- Growth, year on year: 160%\n- Net burn: ₹139 lakh per month\n- Runway: 23 months\n- Headcount: 61\n- Net revenue retention: 127%\n- Gross margin: 69%\n- Paying customers: 30\n\n## Deal\n- Raising: $18 million\n- Ownership on offer: 10%\n\n## Transcript excerpt — board call\nVIKRAM OLLANDRY: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nANAYA VERMILLION: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nVIKRAM OLLANDRY: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nVIKRAM OLLANDRY: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. A direct competitor to Dhaba Cloud announced a large growth round led by Dovetail Growth.\n2. Dhaba Cloud signed a reseller agreement with a systems integrator covering the healthcare segment.\n3. Dhaba Cloud has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.\n\n## Previously reported to the investment committee\n- A direct competitor to Dhaba Cloud announced a large growth round led by Dovetail Growth.\n- Dhaba Cloud closed its seed round led by Pallavi Bridge Capital.\n- Dhaba Cloud appointed Anaya Vermillion as Head of Data.",
+      "news": [
+        {
+          "key": "competitor raise",
+          "detect": [
+            "competitor"
+          ],
+          "text": "A direct competitor to Dhaba Cloud announced a large growth round led by Dovetail Growth.",
+          "previouslyReported": true
+        },
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Dhaba Cloud signed a reseller agreement with a systems integrator covering the healthcare segment.",
+          "previouslyReported": false
+        },
+        {
+          "key": "hiring freeze",
+          "detect": [
+            "non-engineering"
+          ],
+          "text": "Dhaba Cloud has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "A direct competitor to Dhaba Cloud announced a large growth round led by Dovetail Growth.",
+        "Dhaba Cloud closed its seed round led by Pallavi Bridge Capital.",
+        "Dhaba Cloud appointed Anaya Vermillion as Head of Data."
+      ],
+      "numbers": [
+        {
+          "raw": "₹4.7 crore",
+          "canonicalValue": 47000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "160%",
+          "canonicalValue": 160,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹139 lakh",
+          "canonicalValue": 13900000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "23 months",
+          "canonicalValue": 23,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "61",
+          "canonicalValue": 61,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "127%",
+          "canonicalValue": 127,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "69%",
+          "canonicalValue": 69,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "30",
+          "canonicalValue": 30,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$18 million",
+          "canonicalValue": 18000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "10%",
+          "canonicalValue": 10,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-009",
+      "company": "Sitaphal Labs",
+      "sector": "agritech",
+      "city": "Indore",
+      "text": "# Pack — Sitaphal Labs\n\nSitaphal Labs is a agritech company based in Indore. cold-chain monitoring for fruit exporters.\n\n## Metrics (latest quarter)\n- ARR: ₹8.7 crore\n- Growth, year on year: 165%\n- Net burn: ₹101 lakh per month\n- Runway: 24 months\n- Headcount: 72\n- Net revenue retention: 121%\n- Gross margin: 75%\n- Paying customers: 109\n\n## Deal\n- Raising: $7 million\n- Ownership on offer: 8%\n\n## Transcript excerpt — board call\nPRIYA SANDHURST: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nDEV CASTELLAN: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nPRIYA SANDHURST: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nPRIYA SANDHURST: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Sitaphal Labs opened a second office in Pune to serve customers outside its home market.\n2. Sitaphal Labs has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.\n3. Sitaphal Labs suffered a multi-hour outage that affected its largest enterprise accounts.\n\n## Previously reported to the investment committee\n- Sitaphal Labs opened a second office in Pune to serve customers outside its home market.\n- Sitaphal Labs closed its seed round led by Thornfield Partners.\n- Sitaphal Labs appointed Dev Castellan as COO.",
+      "news": [
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Sitaphal Labs opened a second office in Pune to serve customers outside its home market.",
+          "previouslyReported": true
+        },
+        {
+          "key": "hiring freeze",
+          "detect": [
+            "non-engineering"
+          ],
+          "text": "Sitaphal Labs has paused all non-engineering hiring for the current quarter, according to a note circulated to shareholders.",
+          "previouslyReported": false
+        },
+        {
+          "key": "platform outage",
+          "detect": [
+            "outage"
+          ],
+          "text": "Sitaphal Labs suffered a multi-hour outage that affected its largest enterprise accounts.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Sitaphal Labs opened a second office in Pune to serve customers outside its home market.",
+        "Sitaphal Labs closed its seed round led by Thornfield Partners.",
+        "Sitaphal Labs appointed Dev Castellan as COO."
+      ],
+      "numbers": [
+        {
+          "raw": "₹8.7 crore",
+          "canonicalValue": 87000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "165%",
+          "canonicalValue": 165,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹101 lakh",
+          "canonicalValue": 10100000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "24 months",
+          "canonicalValue": 24,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "72",
+          "canonicalValue": 72,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "121%",
+          "canonicalValue": 121,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "75%",
+          "canonicalValue": 75,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "109",
+          "canonicalValue": 109,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$7 million",
+          "canonicalValue": 7000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "8%",
+          "canonicalValue": 8,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-010",
+      "company": "Ghatak Security",
+      "sector": "security",
+      "city": "Bengaluru",
+      "text": "# Pack — Ghatak Security\n\nGhatak Security is a security company based in Bengaluru. runtime threat detection for containerised workloads.\n\n## Metrics (latest quarter)\n- ARR: ₹8.6 crore\n- Growth, year on year: 124%\n- Net burn: ₹67 lakh per month\n- Runway: 9 months\n- Headcount: 95\n- Net revenue retention: 132%\n- Gross margin: 74%\n- Paying customers: 274\n\n## Deal\n- Raising: $11 million\n- Ownership on offer: 14%\n\n## Transcript excerpt — board call\nTOBIAS RENNICK: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nRHEA UNDERHILL: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nTOBIAS RENNICK: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nTOBIAS RENNICK: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Ghatak Security moved from seat-based to usage-based pricing across its self-serve tier.\n2. Ghatak Security opened a second office in Indore to serve customers outside its home market.\n3. Ghatak Security signed a reseller agreement with a systems integrator covering the manufacturing segment.\n\n## Previously reported to the investment committee\n- Ghatak Security moved from seat-based to usage-based pricing across its self-serve tier.\n- Ghatak Security closed its seed round led by Marchmont Fund II.\n- Ghatak Security appointed Rhea Underhill as VP Product.",
+      "news": [
+        {
+          "key": "pricing change",
+          "detect": [
+            "usage-based"
+          ],
+          "text": "Ghatak Security moved from seat-based to usage-based pricing across its self-serve tier.",
+          "previouslyReported": true
+        },
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Ghatak Security opened a second office in Indore to serve customers outside its home market.",
+          "previouslyReported": false
+        },
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Ghatak Security signed a reseller agreement with a systems integrator covering the manufacturing segment.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Ghatak Security moved from seat-based to usage-based pricing across its self-serve tier.",
+        "Ghatak Security closed its seed round led by Marchmont Fund II.",
+        "Ghatak Security appointed Rhea Underhill as VP Product."
+      ],
+      "numbers": [
+        {
+          "raw": "₹8.6 crore",
+          "canonicalValue": 86000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "124%",
+          "canonicalValue": 124,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹67 lakh",
+          "canonicalValue": 6700000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "9 months",
+          "canonicalValue": 9,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "95",
+          "canonicalValue": 95,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "132%",
+          "canonicalValue": 132,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "74%",
+          "canonicalValue": 74,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "274",
+          "canonicalValue": 274,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$11 million",
+          "canonicalValue": 11000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "14%",
+          "canonicalValue": 14,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-011",
+      "company": "Chandni Credit",
+      "sector": "fintech",
+      "city": "Gurugram",
+      "text": "# Pack — Chandni Credit\n\nChandni Credit is a fintech company based in Gurugram. underwriting for informal-sector borrowers.\n\n## Metrics (latest quarter)\n- ARR: ₹7.9 crore\n- Growth, year on year: 156%\n- Net burn: ₹82 lakh per month\n- Runway: 20 months\n- Headcount: 106\n- Net revenue retention: 127%\n- Gross margin: 56%\n- Paying customers: 107\n\n## Deal\n- Raising: $16 million\n- Ownership on offer: 18%\n\n## Transcript excerpt — board call\nANAYA VERMILLION: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nKABIR ASHGROVE: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nANAYA VERMILLION: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nANAYA VERMILLION: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Chandni Credit signed a reseller agreement with a systems integrator covering the manufacturing segment.\n2. A direct competitor to Chandni Credit announced a large growth round led by Pallavi Bridge Capital.\n3. Chandni Credit moved from seat-based to usage-based pricing across its self-serve tier.\n\n## Previously reported to the investment committee\n- Chandni Credit signed a reseller agreement with a systems integrator covering the manufacturing segment.\n- Chandni Credit closed its seed round led by Pallavi Bridge Capital.\n- Chandni Credit appointed Kabir Ashgrove as COO.",
+      "news": [
+        {
+          "key": "channel partnership",
+          "detect": [
+            "reseller"
+          ],
+          "text": "Chandni Credit signed a reseller agreement with a systems integrator covering the manufacturing segment.",
+          "previouslyReported": true
+        },
+        {
+          "key": "competitor raise",
+          "detect": [
+            "competitor"
+          ],
+          "text": "A direct competitor to Chandni Credit announced a large growth round led by Pallavi Bridge Capital.",
+          "previouslyReported": false
+        },
+        {
+          "key": "pricing change",
+          "detect": [
+            "usage-based"
+          ],
+          "text": "Chandni Credit moved from seat-based to usage-based pricing across its self-serve tier.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Chandni Credit signed a reseller agreement with a systems integrator covering the manufacturing segment.",
+        "Chandni Credit closed its seed round led by Pallavi Bridge Capital.",
+        "Chandni Credit appointed Kabir Ashgrove as COO."
+      ],
+      "numbers": [
+        {
+          "raw": "₹7.9 crore",
+          "canonicalValue": 79000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "156%",
+          "canonicalValue": 156,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹82 lakh",
+          "canonicalValue": 8200000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "20 months",
+          "canonicalValue": 20,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "106",
+          "canonicalValue": 106,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "127%",
+          "canonicalValue": 127,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "56%",
+          "canonicalValue": 56,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "107",
+          "canonicalValue": 107,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$16 million",
+          "canonicalValue": 16000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "18%",
+          "canonicalValue": 18,
+          "canonicalUnit": "pct"
+        }
+      ]
+    },
+    {
+      "id": "p4-012",
+      "company": "Nilgiri Networks",
+      "sector": "infra",
+      "city": "Pune",
+      "text": "# Pack — Nilgiri Networks\n\nNilgiri Networks is a infra company based in Pune. edge caching for regional streaming platforms.\n\n## Metrics (latest quarter)\n- ARR: ₹8.5 crore\n- Growth, year on year: 126%\n- Net burn: ₹125 lakh per month\n- Runway: 13 months\n- Headcount: 69\n- Net revenue retention: 129%\n- Gross margin: 82%\n- Paying customers: 291\n\n## Deal\n- Raising: $6 million\n- Ownership on offer: 13%\n\n## Transcript excerpt — board call\nDEV CASTELLAN: Retention is the thing we are proudest of this quarter. The expansion motion inside existing accounts is finally working, and that is what is carrying net revenue retention.\nMEERA THISTLEWOOD: The counterweight is that new logo acquisition slowed. We are relying more on expansion than we would like, and the top of the funnel needs work before the next raise.\n\n## Transcript excerpt — founder catch-up\nDEV CASTELLAN: Hiring is the bottleneck. We have the budget signed off but the senior engineering market is brutal and we have lost two candidates at offer stage.\nDEV CASTELLAN: On the product side, the reporting module is what customers ask for in every single advisory call. It is now the next thing we build.\n\n## Recent news\n1. Nilgiri Networks opened a second office in Pune to serve customers outside its home market.\n2. Nilgiri Networks completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.\n3. Nilgiri Networks moved from seat-based to usage-based pricing across its self-serve tier.\n\n## Previously reported to the investment committee\n- Nilgiri Networks opened a second office in Pune to serve customers outside its home market.\n- Nilgiri Networks closed its seed round led by Thornfield Partners.\n- Nilgiri Networks appointed Meera Thistlewood as COO.",
+      "news": [
+        {
+          "key": "regional expansion",
+          "detect": [
+            "second office"
+          ],
+          "text": "Nilgiri Networks opened a second office in Pune to serve customers outside its home market.",
+          "previouslyReported": true
+        },
+        {
+          "key": "certification",
+          "detect": [
+            "SOC 2"
+          ],
+          "text": "Nilgiri Networks completed its SOC 2 Type II certification, removing a blocker that had stalled several enterprise deals.",
+          "previouslyReported": false
+        },
+        {
+          "key": "pricing change",
+          "detect": [
+            "usage-based"
+          ],
+          "text": "Nilgiri Networks moved from seat-based to usage-based pricing across its self-serve tier.",
+          "previouslyReported": false
+        }
+      ],
+      "previouslyReported": [
+        "Nilgiri Networks opened a second office in Pune to serve customers outside its home market.",
+        "Nilgiri Networks closed its seed round led by Thornfield Partners.",
+        "Nilgiri Networks appointed Meera Thistlewood as COO."
+      ],
+      "numbers": [
+        {
+          "raw": "₹8.5 crore",
+          "canonicalValue": 85000000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "126%",
+          "canonicalValue": 126,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "₹125 lakh",
+          "canonicalValue": 12500000,
+          "canonicalUnit": "INR"
+        },
+        {
+          "raw": "13 months",
+          "canonicalValue": 13,
+          "canonicalUnit": "months"
+        },
+        {
+          "raw": "69",
+          "canonicalValue": 69,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "129%",
+          "canonicalValue": 129,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "82%",
+          "canonicalValue": 82,
+          "canonicalUnit": "pct"
+        },
+        {
+          "raw": "291",
+          "canonicalValue": 291,
+          "canonicalUnit": "count"
+        },
+        {
+          "raw": "$6 million",
+          "canonicalValue": 6000000,
+          "canonicalUnit": "USD"
+        },
+        {
+          "raw": "13%",
+          "canonicalValue": 13,
+          "canonicalUnit": "pct"
+        }
+      ]
+    }
+  ]
+}

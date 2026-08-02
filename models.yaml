@@ -1,0 +1,147 @@
+# yardstick model registry
+#
+# Adding a model = one entry here. No code changes.
+#
+# priceIn / priceOut are USD per million tokens and are YOURS to own — nothing
+# in this repo invents a price. Run `npm run prices:sync` to populate the
+# OpenRouter entries from its live /api/v1/models payload.
+#
+# `capabilities:` is an OPTIONAL override. Preflight resolves capabilities from
+# the provider where it can and prints a loud warning when an override here
+# contradicts the live API. The overrides below are for facts the capabilities
+# endpoint does not express — chiefly whether `temperature` is accepted at all.
+#
+# `profile:` mirrors your production call so scores reflect the pipeline you
+# actually run. P6 separately probes each model's DEFAULT behaviour, which is
+# where tiny-max_tokens breakage shows up.
+
+# ─────────────────────────── baselines ───────────────────────────
+
+- id: claude-haiku-4-5
+  provider: anthropic
+  family: anthropic
+  priceIn: 1.00
+  priceOut: 5.00
+  baseline: true
+  roles: [classify, vision]
+  # Baseline for triage only. It is a vision CANDIDATE, not the vision
+  # incumbent — without this line it would silently become both.
+  baselineRoles: [classify]
+  profile: { thinking: default, effort: null }
+  capabilities:
+    temperature: true
+    effortLevels: [] # `effort` errors on Haiku 4.5
+    thinkingModes: [off]
+  notes: >
+    Cheap-tier classify baseline. 200K context. Accepts temperature, so temp-0
+    batch calls work as written.
+
+- id: claude-sonnet-5
+  provider: anthropic
+  family: anthropic
+  # Standing rate. An introductory $2.00 / $10.00 runs through 2026-08-31;
+  # deliberately NOT used here, because pinning a production model on a promo
+  # rate that expires in weeks produces a verdict that expires with it.
+  # Swap these two lines if you want to score at the intro rate instead.
+  priceIn: 3.00
+  priceOut: 15.00
+  baseline: true
+  roles: [extract, sql, write, session, vision]
+  profile: { thinking: disabled, effort: low }
+  capabilities:
+    temperature: false # non-default temperature/top_p/top_k => 400
+    effortLevels: [low, medium, high, xhigh, max]
+    thinkingModes: [off, adaptive]
+  notes: >
+    Mid-tier extract baseline. REJECTS temperature and defaults to adaptive
+    thinking, so its determinism figure is measured at provider default and is
+    labelled `measured-at-default` in the report — not like-for-like against a
+    model that genuinely honours temp 0. Tokenizer is ~30% heavier than
+    Sonnet 4.6 for the same text at unchanged per-token price.
+
+# ─────────────────────────── candidates ──────────────────────────
+
+- id: claude-sonnet-4-6
+  provider: anthropic
+  family: anthropic
+  priceIn: 3.00
+  priceOut: 15.00
+  roles: [extract, sql, write]
+  profile: { thinking: disabled, effort: low }
+  capabilities:
+    temperature: true
+    effortLevels: [low, medium, high, max]
+    thinkingModes: [off, adaptive]
+  notes: >
+    Previous-generation Sonnet. Kept in the registry as the tokenizer-weight
+    reference point for the Sonnet 5 comparison.
+
+- id: claude-opus-4-8
+  provider: anthropic
+  family: anthropic
+  priceIn: 5.00
+  priceOut: 25.00
+  roles: [extract, sql, write]
+  profile: { thinking: disabled, effort: low }
+  capabilities:
+    temperature: false
+    effortLevels: [low, medium, high, xhigh, max]
+    thinkingModes: [off, adaptive]
+
+- id: claude-opus-5
+  provider: anthropic
+  family: anthropic
+  priceIn: 5.00
+  priceOut: 25.00
+  roles: [extract, sql, write, vision]
+  # `thinking: disabled` is legal ONLY at effort <= high on Opus 5.
+  # Pairing disabled with xhigh/max is a 400 — config.ts rejects that combo
+  # before a single call is made.
+  profile: { thinking: disabled, effort: low }
+  capabilities:
+    temperature: false
+    effortLevels: [low, medium, high, xhigh, max]
+    thinkingModes: [off, adaptive]
+  notes: >
+    Thinking runs by default when the parameter is omitted, unlike 4.8/4.7.
+    max_tokens caps thinking + response text together.
+
+# - id: claude-fable-5
+#   provider: anthropic
+#   family: anthropic
+#   priceIn: 10.00
+#   priceOut: 50.00
+#   roles: [extract, write]
+#   profile: { thinking: default, effort: low }   # thinking is always on; `disabled` is a 400
+#   capabilities:
+#     temperature: false
+#     thinkingModes: [always-on]
+#   notes: Requires 30-day data retention; unavailable under ZDR.
+
+# ───────────────────── other providers: pin your own ─────────────────────
+#
+# Left commented deliberately. Model IDs and prices are not guessed here —
+# fill them in and preflight will validate every ID against the provider's
+# model-list endpoint at t=0, failing the run before any spend if one is
+# unknown or retired.
+#
+# - id: <openai-model-id>
+#   provider: openai
+#   family: openai
+#   priceIn: 0.00      # TODO: pin price
+#   priceOut: 0.00     # TODO: pin price
+#   roles: [classify, extract]
+#
+# - id: <gemini-model-id>
+#   provider: google
+#   family: google
+#   priceIn: 0.00      # TODO: pin price
+#   priceOut: 0.00     # TODO: pin price
+#   roles: [classify, extract]
+#
+# - id: <openrouter/model-slug>
+#   provider: openrouter
+#   family: openrouter
+#   priceIn: 0.00      # `npm run prices:sync` fills these from OpenRouter
+#   priceOut: 0.00
+#   roles: [classify]

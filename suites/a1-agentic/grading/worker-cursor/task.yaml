@@ -1,0 +1,9 @@
+slug: worker-cursor
+title: Fix a failing background-sync suite (fire-and-forget vs resumable cursor)
+timeoutMs: 600000
+allowGitCommit: false
+requires: [node]
+checks:
+  - kind: vitest
+    label: hidden-tests
+    weight: 1
