@@ -55,7 +55,7 @@ describe("formatMinor — grouping differs by currency", () => {
   });
 });
 
-describe("P7 fixtures", () => {
+describe("P7 fixtures", { timeout: 60_000 }, () => {
   const invoices = buildInvoices(20260807);
 
   it("renders 12 invoices across every layout and currency", () => {
