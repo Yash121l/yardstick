@@ -283,6 +283,23 @@ Prices in `models.yaml` are yours to own; nothing here invents one. `npm run pri
 
 **Sonnet 5 pricing.** Registered at the standing $3/$15, not the introductory $2/$10 that runs through 2026-08-31, because a pin justified by a rate expiring in weeks expires with it. Flip the two lines in `models.yaml` if you want intro-rate scoring.
 
+## Telemetry
+
+`npm run eval` sends anonymous usage data to PostHog (US cloud). The first run prints a notice.
+
+- `cli_command_run`: command, yardstick version, OS, arch, Node version, duration, exit code,
+  and which boolean flags were set (`--dry-run`, `--smoke`, `--resume`, `--dual-judge`, `--no-cache`).
+- `eval_run_completed`: after a real eval only. Counts of suites, models, attempts, cached
+  results, errors and ungraded items, the run's spend in USD, and whether it hit the spend cap.
+
+Argument values, suite and model ids, paths, prompts, responses and file contents are never
+sent. Events are keyed to a random install id in `$XDG_CONFIG_HOME/yardstick/telemetry.json`
+(default `~/.config/yardstick/`). They go out from a detached process with a 3-second timeout,
+so the CLI never waits on them.
+
+Turn it off with `YARDSTICK_TELEMETRY=0` or `DO_NOT_TRACK=1`. It is also off when `CI` is
+set and under vitest.
+
 ## Secrets
 
 Keys come from `.env` only (git-ignored). They are never logged, never included in an error message, and never partially masked-and-printed. Every provider call goes through one `httpJson` helper whose only outputs are a status, a body, and a latency.

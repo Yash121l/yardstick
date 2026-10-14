@@ -27,6 +27,7 @@ import { RunWriter, gitSha, newRunId } from "./runner/manifest.js";
 import { dryRun, runMatrix } from "./runner/matrix.js";
 import { SpendMeter } from "./runner/spend.js";
 import { resolveSuites } from "./suites/index.js";
+import { startTelemetry, track } from "./telemetry.js";
 import type { Attempt, ManifestModel, RunManifest } from "./types.js";
 
 const ROOT = process.cwd();
@@ -78,6 +79,14 @@ async function main(): Promise<void> {
 
   const opts = program.opts<Options>();
   loadEnv(ROOT);
+  // Flags as booleans only: no suite ids, model ids or other argument values.
+  startTelemetry("eval", {
+    dry_run: opts.dryRun === true,
+    smoke: opts.smoke === true,
+    resume: opts.resume !== undefined,
+    dual_judge: opts.dualJudge === true,
+    cache: opts.cache,
+  });
 
   let config: ReturnType<typeof loadConfig>;
   try {
@@ -497,6 +506,16 @@ async function main(): Promise<void> {
   }
 
   process.stdout.write(`\n${renderVerdicts(verdicts)}\n\n`);
+  track("eval_run_completed", {
+    suites: suites.length + (wantsA1 ? 1 : 0),
+    models: resolved.resolved.length,
+    attempts: outcome.attempts.length,
+    cached: outcome.cachedCount,
+    errors: outcome.errorCount,
+    ungraded: outcome.ungradedCount,
+    spend_usd: Math.round(spend.total * 10_000) / 10_000,
+    aborted_at_cap: outcome.abortedAtCap,
+  });
   process.stdout.write(
     `run ${runId}  spend $${spend.total.toFixed(4)} / $${spend.cap.toFixed(2)}  ` +
       `cached ${outcome.cachedCount}/${outcome.attempts.length}  ` +
